@@ -1,7 +1,7 @@
 title: Jeff Zhuang
 description: "Notes on dropshipping, SaaS experiments, and a multi-hyphenate builder journey."
 url: https://Jeff20151.github.io
-baseurl: ""
+baseurl: "/personal_website"
 
 # Build
 markdown: kramdown
