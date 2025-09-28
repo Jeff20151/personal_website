@@ -1,0 +1,8 @@
+<nav class="nav">
+  <a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+  <ul>
+    {% for item in site.nav %}
+      <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+    {% endfor %}
+  </ul>
+</nav>

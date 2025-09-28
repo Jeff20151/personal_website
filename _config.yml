@@ -1,0 +1,62 @@
+title: Jeff Zhuang
+description: "Notes on dropshipping, SaaS experiments, and a multi-hyphenate builder journey."
+url: https://Jeff20151.github.io
+baseurl: ""
+
+# Build
+markdown: kramdown
+theme: null
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Author profile (used in sidebar and meta)
+author:
+  name: "Jeff Zhuang"
+  aliases:
+    - "Jeff"
+    - "Yunghsu Chunag"
+    - "莊詠旭"
+  title: "National Taiwan University BST · BEBI"
+  email: "tomnandy922@gmail.com"
+  location: "Taipei, Taiwan"
+  bio: "Building across dropshipping, SaaS launches, and culture-driven storytelling."
+  avatar: "/assets/img/avatar.jpg"
+  socials:
+    github: Jeff20151
+    linkedin: jeff-zhuang-b45117316
+    instagram: taiwanfoodgood
+    threads: taiwanfoodgood
+    email: tomnandy922@gmail.com
+
+# Navigation
+nav:
+  - title: Blog
+    url: /
+  - title: About
+    url: /about
+  - title: CV
+    url: /cv
+  - title: Tags
+    url: /tags
+
+# Permalinks & pagination
+permalink: /:year/:month/:day/:title/
+paginate: 10
+paginate_path: "/page:num/"
+
+# Tags page
+tag_page: /tags
+
+# SEO
+seo:
+  type: "Person"
+  name: "Jeff Zhuang"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - README.md

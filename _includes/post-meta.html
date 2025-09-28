@@ -1,0 +1,8 @@
+{% assign p = include.post %}
+{% if p.tags %}
+  <span class="tags">
+    {% for t in p.tags %}
+      <a href="{{ '/tags' | relative_url }}#{{ t }}" class="tag">#{{ t }}</a>
+    {% endfor %}
+  </span>
+{% endif %}
