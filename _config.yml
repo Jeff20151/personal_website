@@ -1,4 +1,4 @@
-title: Jeff Zhuang
+title: Jeff Chunag
 description: "Notes on dropshipping, SaaS experiments, and a multi-hyphenate builder journey."
 url: https://Jeff20151.github.io
 baseurl: "/personal_website"
@@ -13,15 +13,15 @@ plugins:
 
 # Author profile (used in sidebar and meta)
 author:
-  name: "Jeff Zhuang"
+  name: "Jeff Chunag"
   aliases:
     - "Jeff"
-    - "Yunghsu Chunag"
+    - "Yunghsu Chuang"
     - "莊詠旭"
   title: "National Taiwan University BST · BEBI"
   email: "tomnandy922@gmail.com"
   location: "Taipei, Taiwan"
-  bio: "Building across dropshipping, SaaS launches, and culture-driven storytelling."
+  bio: "Building across dropshipping,<br>SaaS launches,<br>and culture-driven storytelling."
   avatar: "/assets/img/avatar.jpg"
   socials:
     github: Jeff20151
@@ -52,7 +52,7 @@ tag_page: /tags
 # SEO
 seo:
   type: "Person"
-  name: "Jeff Zhuang"
+  name: "Jeff Chunag"
 
 # Exclude from processing
 exclude:

@@ -5,25 +5,51 @@ permalink: /cv
 ---
 
 ### Snapshot
-- NTU BST & BEBI 雙背景，翻譯生醫、商業與產品語言。
-- Dropshipping / SaaS builder —— 以數據驅動選品與迭代，快速驗證產品市場適配。
-- Content maker —— `@taiwanfoodgood` 分享在地美食與創業實驗，累積社群對話。
+- NTU BST & BEBI background, bridging biomedical research, business, and product execution.
+- Dropshipping & SaaS builder — data-driven selection, rapid MVPs, and iterative PMF validation.
+- Content maker — running `@taiwanfoodgood`, sharing experiments in entrepreneurship and community building.
 
 ### Education
-- **National Taiwan University — Bachelor of Science and Technology (BST)**
-- **National Taiwan University — Biomedical Engineering & Bioinformatics (BEBI)**
+- **National Taiwan University (NTU)** — B.S., Science and Technology (BST)
+- **National Taiwan University (NTU)** — M.S., Biomedical Electronics & Bioinformatics (BEBI) *(in progress)*
 
 ### Experience & Projects
-- **Taiwan Food Good（IG / Threads）** — 規劃內容節奏、社群互動與合作提案流程。
-- **Dropshipping Playbooks** — 建立供應商資料庫、投放迴路與客服 SOP，持續調整毛利模型。
-- **SaaS Micro Launches** — 以 no-code / low-code 建置行銷工具，導入自動化流程並追蹤漏斗。
-- **Campus Builder Network** — 與校內跨域夥伴推進 side projects，從 pitch 到 demo 全程實作。
+- **Taiwan Food Good (IG / Threads)**
+  - Designed content cadence, managed community engagement, and built a lightweight partner outreach pipeline.
+  - Produced creator briefs and collaboration proposals aligned to brand voice and campaign goals.
+- **Dropshipping Playbooks**
+  - Built supplier database, ad testing loop, and customer-support SOPs; continuously optimized gross-margin models.
+  - Implemented feedback-to-iteration workflows for product fit and retention.
+- **SaaS Micro-Launches**
+  - Prototyped marketing/ops tools with no-code/low-code; integrated automation and funnel tracking.
+  - Deployed small paid pilots to validate willingness-to-pay and usage patterns.
+- **Campus Builder Network (NTU)**
+  - Coordinated cross-disciplinary teams from pitch → MVP → demo; hands-on with UX, copy, and analytics.
+  - Ran mini design sprints to reduce cycle time from idea to testable artifact.
+
+### Teaching
+- Kang Chiao Science Olympiad Program — Instructor
+- Fuhsing Science Olympiad Program — Instructor
+- Petrichor Biodesign (BDC) Program — Lecturer
+- NTU EE — Machine Learning — Teaching Assistant
 
 ### Skills
-- 市場研究與資料整理（Google Trends、平台資料抓取、Notion DB）
-- 廣告投放與轉換追蹤（Meta Ads、Pixel、UTM）
-- No-code / Low-code（Glide、Softr、Webflow、Zapier、Make）
-- 故事包裝與簡報設計（Pitch Deck、品牌語調）
+- Market research & data gathering: Google Trends, marketplace scraping, Notion DB design
+- Performance marketing & tracking: Meta Ads, Pixel setup, UTM planning, conversion analytics
+- No-code / Low-code: Glide, Softr, Webflow, Zapier, Make
+- Storytelling & presentation: Pitch decks, brand voice, narrative structure
+- Machine learning: prototyping ML-assisted features (classification, basic NLP/vision) with the Python ecosystem
+
+### Selected Involvement & Recognition
+- iGEM Graduate Team — Gold Medal (2024)
+- Biodesign Challenge — Instructor (2025)
+- iGEM — Judge (2025)
+- CEO, 市檜 (Shihui) (2025)
+- CEO, PresenterAI (2025)
+- Cross-border e-commerce (Dropshipping) entrepreneur (2025)
+- Member, NTU d.school (since 2024)
 
 ### Connect
-寫信給我 `tomnandy922@gmail.com`，或在 Instagram / Threads 私訊 `@taiwanfoodgood`，聊聊產品、內容或合作機會。
+Email `tomnandy922@gmail.com` or DM `@taiwanfoodgood` on Instagram/Threads to discuss products, content, or collaborations.
+
+> “I build at the intersection of science, business, and design — turning ideas into experiments, and experiments into impact.”
