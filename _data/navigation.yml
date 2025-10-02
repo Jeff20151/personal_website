@@ -1,0 +1,30 @@
+en:
+  - title: Home
+    url: /
+  - title: Research
+    url: /research/
+  - title: Blog
+    url: /blog/
+  - title: Projects
+    url: /projects/
+  - title: Art
+    url: /art/
+  - title: About
+    url: /about/
+  - title: Contact
+    url: /contact/
+zh:
+  - title: 首頁
+    url: /zh/
+  - title: 研究
+    url: /zh/research/
+  - title: 部落格
+    url: /zh/blog/
+  - title: 專案
+    url: /zh/projects/
+  - title: 藝術
+    url: /zh/art/
+  - title: 關於
+    url: /zh/about/
+  - title: 聯絡
+    url: /zh/contact/

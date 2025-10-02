@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ page.lang | default: site.default_lang }}">
   <head>
     {% include head.html %}
   </head>
@@ -20,8 +20,16 @@
           {% else %}
             <h3>{{ site.author.name }}</h3>
           {% endif %}
-          <p>{{ site.author.title }}</p>
-          <p class="bio">{{ site.author.bio }}</p>
+          {% if page.lang == 'zh' and site.author.title_zh %}
+            <p>{{ site.author.title_zh }}</p>
+          {% else %}
+            <p>{{ site.author.title }}</p>
+          {% endif %}
+          {% if page.lang == 'zh' and site.author.bio_zh %}
+            <p class="bio">{{ site.author.bio_zh }}</p>
+          {% else %}
+            <p class="bio">{{ site.author.bio }}</p>
+          {% endif %}
           <ul class="socials">
             {% if site.author.socials.github %}<li><a href="https://github.com/{{ site.author.socials.github }}">GitHub</a></li>{% endif %}
             {% if site.author.socials.linkedin %}<li><a href="https://www.linkedin.com/in/{{ site.author.socials.linkedin }}">LinkedIn</a></li>{% endif %}

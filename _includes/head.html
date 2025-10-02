@@ -1,7 +1,24 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ page.title }} | {{ site.title }}</title>
-<meta name="description" content="{{ site.description }}">
+{% assign meta_description = page.description | default: site.description %}
+{% if page.lang == 'zh' and site.description_zh %}
+  {% assign meta_description = page.description | default: site.description_zh %}
+{% endif %}
+<meta name="description" content="{{ meta_description }}">
 {% seo %}
+{% assign current_lang = page.lang | default: site.default_lang %}
+<link rel="alternate" href="{{ page.url | relative_url | absolute_url }}" hreflang="{{ current_lang }}">
+{% if page.alt_url %}
+  {% if current_lang == 'zh' %}
+    {% assign alt_lang = 'en' %}
+  {% else %}
+    {% assign alt_lang = 'zh' %}
+  {% endif %}
+  <link rel="alternate" href="{{ page.alt_url | relative_url | absolute_url }}" hreflang="{{ alt_lang }}">
+{% endif %}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
 <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">

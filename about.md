@@ -1,24 +1,30 @@
 ---
 layout: page
 title: About Jeff Chunag
-permalink: /about
+description: "Bioelectronics researcher and product builder based in Taipei."
+permalink: /about/
+lang: en
+alt_url: /zh/about/
 ---
 
-I graduated from National Taiwan University (BST) and am now pursuing a Graduate degree in Biomedical Electronics & Bioinformatics (BEBI), with the long-term goal of becoming a researcher who makes meaningful contributions to the world. Since 2025, I have also been a member of NTU d.school, actively engaging in interdisciplinary innovation.
+## Profile
 
-In parallel with my academic training, I take part in global competitions and entrepreneurial projects:
+I am a Biomedical Electronics & Bioinformatics (BEBI) graduate researcher at National Taiwan University, exploring how synthetic biology and sensing systems can leap from prototypes to real-world services. I also steward culture-driven product experiments that bring research narratives to global audiences.
 
-- 🥇 **2024 iGEM Graduate Team — Gold Medal** — [Team NTU Taiwan](https://2024.igem.wiki/ntu-taiwan/)
-- 👨‍🏫 **2025 Biodesign Challenge — Instructor**
-- 🧑‍⚖️ **2025 iGEM — Judge**
-- 🚀 **2025 CEO, 市檜 (Shihui)**
-- 💡 **2025 CEO, PresenterAI**
-- 🌐 **2025 Cross-border e-commerce (Dropshipping) entrepreneur**
+## Milestones
 
-Jeff (Yunghsu Chuang / 莊詠旭)
+- 🥇 **2024 iGEM Graduate Team — Gold Medal** with [Team NTU Taiwan](https://2024.igem.wiki/ntu-taiwan/).
+- 👨‍🏫 **2025 Biodesign Challenge — Instructor** guiding biotech sprint teams.
+- 🧑‍⚖️ **2025 iGEM Judge** for synthetic biology teams worldwide.
+- 🚀 **市檜 (Shihui) CEO** blending Taiwanese craft with sustainable materials.
+- 💡 **PresenterAI Co-founder** focusing on generative research storytelling.
+- 🌐 **Cross-border Commerce Builder** running dropshipping funnels and growth analytics.
 
-Email: `tomnandy922@gmail.com`
+## Coordinates
 
-IG/Threads: `@taiwanfoodgood`
+- **Email** — [tomnandy922@gmail.com](mailto:tomnandy922@gmail.com)
+- **LinkedIn** — [jeff-zhuang-b45117316](https://www.linkedin.com/in/jeff-zhuang-b45117316)
+- **GitHub** — [Jeff20151](https://github.com/Jeff20151)
+- **IG / Threads** — `@taiwanfoodgood`
 
-Focus: Research-driven product builder across bioinformatics, e-commerce, and SaaS automation
+Focus: Research-driven product builder across bioinformatics, e-commerce, and SaaS automation.

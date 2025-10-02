@@ -1,8 +1,13 @@
 {% assign p = include.post %}
 {% if p.tags %}
+  {% if p.lang == 'zh' %}
+    {% assign tags_url = '/zh/tags/' %}
+  {% else %}
+    {% assign tags_url = '/tags/' %}
+  {% endif %}
   <span class="tags">
     {% for t in p.tags %}
-      <a href="{{ '/tags' | relative_url }}#{{ t }}" class="tag">#{{ t }}</a>
+      <a href="{{ tags_url | relative_url }}#{{ t | slugify }}" class="tag">#{{ t }}</a>
     {% endfor %}
   </span>
 {% endif %}

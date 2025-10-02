@@ -1,7 +1,17 @@
 title: Jeff Chunag
 description: "Notes on dropshipping, SaaS experiments, and a multi-hyphenate builder journey."
+description_zh: "記錄 Dropshipping、SaaS 實驗與多重身份的創作者旅程。"
 url: https://Jeff20151.github.io
 baseurl: "/personal_website"
+
+languages:
+  - code: en
+    label: English
+    baseurl: ""
+  - code: zh
+    label: 中文
+    baseurl: "/zh"
+default_lang: en
 
 # Build
 markdown: kramdown
@@ -19,9 +29,11 @@ author:
     - "Yunghsu Chuang"
     - "莊詠旭"
   title: "National Taiwan University BST · BEBI"
+  title_zh: "國立台灣大學 科技系 · 生醫電資所"
   email: "tomnandy922@gmail.com"
   location: "Taipei, Taiwan"
   bio: "Building across dropshipping,<br>SaaS launches,<br>and culture-driven storytelling."
+  bio_zh: "在跨境電商、SaaS 上市與文化敘事之間實驗與創造。"
   avatar: "/assets/img/avatar.jpg"
   socials:
     github: Jeff20151
@@ -30,16 +42,16 @@ author:
     threads: taiwanfoodgood
     email: tomnandy922@gmail.com
 
-# Navigation
-nav:
-  - title: Blog
-    url: /
-  - title: About
-    url: /about
-  - title: CV
-    url: /cv
-  - title: Tags
-    url: /tags
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      lang: en
+  - scope:
+      path: "zh"
+    values:
+      lang: zh
 
 # Permalinks & pagination
 permalink: /:year/:month/:day/:title/

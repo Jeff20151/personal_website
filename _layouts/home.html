@@ -1,8 +1,8 @@
 ---
 layout: default
 ---
-{% assign posts = paginator.posts | default: site.posts %}
-<h1>{{ site.title }}</h1>
+{% assign posts = site.posts | where: "lang", page.lang | sort: "date" | reverse %}
+<h1>{{ page.title | default: site.title }}</h1>
 {% for post in posts %}
   <article class="post-card">
     <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>

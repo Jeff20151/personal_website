@@ -2,6 +2,9 @@
 layout: post
 title: Launch Log - Shopify Dropshipping Sprint
 tags: [dropshipping, operations]
+lang: zh
+permalink: /zh/:year/:month/:day/:title/
+alt_url: /2025/09/29/launch-log-shopify-sprint/
 ---
 
 這週用一個三天 sprint 測試新選品：

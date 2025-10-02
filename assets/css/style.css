@@ -14,11 +14,14 @@ a{color:var(--link);text-decoration:none;transition:color .2s ease}
 a:hover{color:#1d4ed8}
 main{display:block}
 .site-header{background:var(--card);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:20;box-shadow:0 2px 8px rgba(15,23,42,0.04)}
-.nav{max-width:1100px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;padding:14px 28px}
+.nav{max-width:1100px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;padding:14px 28px;gap:24px}
 .nav .brand{font-weight:700;font-size:18px;color:var(--accent)}
 .nav ul{list-style:none;margin:0;padding:0;display:flex;gap:18px;font-weight:500}
 .nav a{color:var(--fg)}
 .nav a:hover{color:var(--link)}
+.nav .lang-toggle{margin-left:auto}
+.nav .lang-link{display:inline-block;padding:6px 12px;border:1px solid var(--border);border-radius:12px;font-size:14px;color:var(--muted);font-weight:500}
+.nav .lang-link:hover{border-color:var(--link);color:var(--link)}
 .container{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:300px 1fr;gap:32px;padding:32px 28px}
 .sidebar{background:var(--sidebar);border:1px solid var(--border);padding:24px;border-radius:18px;position:sticky;top:110px;box-shadow:0 10px 30px rgba(15,23,42,0.05)}
 .author-card img{width:100%;border-radius:14px;margin-bottom:16px;object-fit:cover}
@@ -39,6 +42,10 @@ main{display:block}
 .post .meta,.post-card .meta{color:var(--muted);font-size:14px;margin-bottom:14px}
 .post-body,.page-body{color:var(--fg);font-size:17px}
 .post-body p,.page-body p{margin-top:0;margin-bottom:18px}
+.landing .page-body h1{font-size:40px;margin-bottom:18px}
+.landing .page-body h2{margin-top:32px;color:var(--accent)}
+.landing .page-body ul{padding-left:20px}
+.landing .page-body li{margin-bottom:10px}
 .tags .tag{margin-right:10px;color:var(--link);font-weight:600}
 .tags-cloud{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:12px;margin:0}
 .tags-cloud li{background:var(--card);border:1px solid var(--border);padding:6px 14px;border-radius:999px;font-size:14px;box-shadow:0 4px 12px rgba(15,23,42,0.05)}
@@ -48,6 +55,9 @@ code,pre{font-family:"Fira Code", "SFMono-Regular", Menlo, Monaco, Consolas,"Lib
 pre{background:#0b1120;color:#e2e8f0;padding:16px;border-radius:14px;overflow:auto}
 @media(max-width:960px){
   .nav{padding:12px 20px}
+  .nav{flex-wrap:wrap;gap:12px}
+  .nav ul{flex-wrap:wrap;justify-content:center;width:100%}
+  .nav .lang-toggle{margin-left:0}
   .container{grid-template-columns:1fr;padding:24px 20px}
   .sidebar{position:relative;top:auto}
 }

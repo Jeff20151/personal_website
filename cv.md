@@ -1,7 +1,10 @@
 ---
 layout: page
 title: CV
-permalink: /cv
+description: "Experience snapshot linking research, commerce, and creative work."
+permalink: /cv/
+lang: en
+alt_url: /zh/cv/
 ---
 
 ### Snapshot
