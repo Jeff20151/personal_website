@@ -36,6 +36,10 @@ body {
   letter-spacing: 0.06em;
 }
 
+body.lang-en {
+  color: #141210;
+}
+
 body.lang-zh {
   font-family: var(--font-zh);
   letter-spacing: 0.08em;
@@ -46,6 +50,14 @@ a {
   text-decoration: none;
   position: relative;
   transition: color 0.2s ease;
+}
+
+body.lang-en a {
+  color: #181512;
+}
+
+body.lang-en a:hover {
+  color: #0a0907;
 }
 
 a:hover {
