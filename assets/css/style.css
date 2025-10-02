@@ -37,7 +37,9 @@ body {
 }
 
 body.lang-en {
-  color: #141210;
+  color: #0f0d0b;
+  font-weight: 600;
+  font-synthesis: weight;
 }
 
 body.lang-zh {
@@ -53,11 +55,11 @@ a {
 }
 
 body.lang-en a {
-  color: #181512;
+  color: #0f0d0b;
 }
 
 body.lang-en a:hover {
-  color: #0a0907;
+  color: #050403;
 }
 
 a:hover {
@@ -72,7 +74,7 @@ h5,
 h6 {
   margin: 0 0 0.6em;
   font-family: var(--font-en);
-  font-weight: 600;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.18em;
   font-size: 13px;
