@@ -53,6 +53,13 @@ alt_url: /cv/
 - 2024 起 台大 d.school 成員
 
 ### 聯繫
-Email `tomnandy922@gmail.com` 或 IG / Threads `@taiwanfoodgood`，歡迎交流產品、內容與合作。
+Email `tomnandy922@gmail.com` 或透過以下平台與我聯絡：
+
+- Instagram — [@taiwanfoodgood](https://www.instagram.com/taiwanfoodgood/)
+- Threads — [@taiwanfoodgood](https://www.threads.com/@taiwanfoodgood)
+- TikTok — [@jeffzhuang810](https://www.tiktok.com/@jeffzhuang810?is_from_webapp=1&sender_device=pc)
+- Twitch — [cooljeffchuang](https://www.twitch.tv/cooljeffchuang)
+- Twitter/X — [@Jeff18175](https://twitter.com/Jeff18175)
+- YouTube — [@jeffzhuang](https://www.youtube.com/@jeffzhuang)
 
 > 「我在科學、商業與設計的交界建造，把想法變成實驗，再把實驗推向影響力。」

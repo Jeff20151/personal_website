@@ -10,7 +10,7 @@ alt_url: /zh/cv/
 ### Snapshot
 - NTU BST & BEBI background, bridging biomedical research, business, and product execution.
 - Dropshipping & SaaS builder — data-driven selection, rapid MVPs, and iterative PMF validation.
-- Content maker — running `@taiwanfoodgood`, sharing experiments in entrepreneurship and community building.
+- Content maker — building the `@starterjeff` ecosystem across Instagram, Threads, and livestreams.
 
 ### Education
 - **National Taiwan University (NTU)** — B.S., Science and Technology (BST)
@@ -53,6 +53,13 @@ alt_url: /zh/cv/
 - Member, NTU d.school (since 2024)
 
 ### Connect
-Email `tomnandy922@gmail.com` or DM `@taiwanfoodgood` on Instagram/Threads to discuss products, content, or collaborations.
+Email `tomnandy922@gmail.com` or DM me at:
+
+- Instagram — [@starterjeff](https://www.instagram.com/starterjeff/)
+- Threads — [@starterjeff](https://www.threads.com/@starterjeff)
+- TikTok — [@starter_jeff](https://www.tiktok.com/@starter_jeff?is_from_webapp=1&sender_device=pc)
+- Twitch — [cooljeffchuang](https://www.twitch.tv/cooljeffchuang)
+- Twitter/X — [@Jeff18175](https://twitter.com/Jeff18175)
+- YouTube — [@JeffChuang-q5d](https://www.youtube.com/@JeffChuang-q5d)
 
 > “I build at the intersection of science, business, and design — turning ideas into experiments, and experiments into impact.”

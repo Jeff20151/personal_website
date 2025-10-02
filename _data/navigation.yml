@@ -5,6 +5,8 @@ en:
     url: /research/
   - title: Blog
     url: /blog/
+  - title: Trading Log
+    url: /trading-log/
   - title: Projects
     url: /projects/
   - title: Art
@@ -20,6 +22,8 @@ zh:
     url: /zh/research/
   - title: 部落格
     url: /zh/blog/
+  - title: 交易日誌
+    url: /zh/trading-log/
   - title: 專案
     url: /zh/projects/
   - title: 藝術

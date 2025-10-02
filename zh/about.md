@@ -25,6 +25,11 @@ alt_url: /about/
 - **Email** — [tomnandy922@gmail.com](mailto:tomnandy922@gmail.com)
 - **LinkedIn** — [jeff-zhuang-b45117316](https://www.linkedin.com/in/jeff-zhuang-b45117316)
 - **GitHub** — [Jeff20151](https://github.com/Jeff20151)
-- **IG / Threads** — `@taiwanfoodgood`
+- **Instagram** — [@taiwanfoodgood](https://www.instagram.com/taiwanfoodgood/)
+- **Threads** — [@taiwanfoodgood](https://www.threads.com/@taiwanfoodgood)
+- **TikTok** — [@jeffzhuang810](https://www.tiktok.com/@jeffzhuang810?is_from_webapp=1&sender_device=pc)
+- **YouTube** — [@jeffzhuang](https://www.youtube.com/@jeffzhuang)
+- **Twitch** — [cooljeffchuang](https://www.twitch.tv/cooljeffchuang)
+- **Twitter/X** — [@Jeff18175](https://twitter.com/Jeff18175)
 
 核心定位：以研究驅動產品，橫跨生物資訊、跨境商務與 SaaS 自動化。

@@ -25,6 +25,11 @@ I am a Biomedical Electronics & Bioinformatics (BEBI) graduate researcher at Nat
 - **Email** — [tomnandy922@gmail.com](mailto:tomnandy922@gmail.com)
 - **LinkedIn** — [jeff-zhuang-b45117316](https://www.linkedin.com/in/jeff-zhuang-b45117316)
 - **GitHub** — [Jeff20151](https://github.com/Jeff20151)
-- **IG / Threads** — `@taiwanfoodgood`
+- **Instagram** — [@starterjeff](https://www.instagram.com/starterjeff/)
+- **Threads** — [@starterjeff](https://www.threads.com/@starterjeff)
+- **TikTok** — [@starter_jeff](https://www.tiktok.com/@starter_jeff?is_from_webapp=1&sender_device=pc)
+- **YouTube** — [@JeffChuang-q5d](https://www.youtube.com/@JeffChuang-q5d)
+- **Twitch** — [cooljeffchuang](https://www.twitch.tv/cooljeffchuang)
+- **Twitter/X** — [@Jeff18175](https://twitter.com/Jeff18175)
 
 Focus: Research-driven product builder across bioinformatics, e-commerce, and SaaS automation.

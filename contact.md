@@ -19,4 +19,13 @@ alt_url: /zh/contact/
 - **Calendly** — Coming soon
 - **LinkedIn** — [jeff-zhuang-b45117316](https://www.linkedin.com/in/jeff-zhuang-b45117316)
 
-Prefer direct messaging? Find me on Threads/Instagram `@taiwanfoodgood`.
+## Social Channels
+
+- **Instagram** — [@starterjeff](https://www.instagram.com/starterjeff/)
+- **Threads** — [@starterjeff](https://www.threads.com/@starterjeff)
+- **TikTok** — [@starter_jeff](https://www.tiktok.com/@starter_jeff?is_from_webapp=1&sender_device=pc)
+- **Twitch** — [cooljeffchuang](https://www.twitch.tv/cooljeffchuang)
+- **Twitter/X** — [@Jeff18175](https://twitter.com/Jeff18175)
+- **YouTube** — [@JeffChuang-q5d](https://www.youtube.com/@JeffChuang-q5d)
+
+Prefer DM? Threads and Instagram are the quickest way to reach me.

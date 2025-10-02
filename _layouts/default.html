@@ -3,49 +3,20 @@
   <head>
     {% include head.html %}
   </head>
-  <body>
-    <header class="site-header">
-      {% include header.html %}
-    </header>
-    <main class="container">
-      <aside class="sidebar">
-        <div class="author-card">
-          <img src="{{ site.author.avatar | relative_url }}" alt="{{ site.author.name }} avatar" />
-          {% if site.author.aliases %}
-            <h3 class="author-aliases">
-              {% for alias in site.author.aliases %}
-                <span>{{ alias }}</span>{% unless forloop.last %}<span class="alias-sep"> / </span>{% endunless %}
-              {% endfor %}
-            </h3>
-          {% else %}
-            <h3>{{ site.author.name }}</h3>
-          {% endif %}
-          {% if page.lang == 'zh' and site.author.title_zh %}
-            <p>{{ site.author.title_zh }}</p>
-          {% else %}
-            <p>{{ site.author.title }}</p>
-          {% endif %}
-          {% if page.lang == 'zh' and site.author.bio_zh %}
-            <p class="bio">{{ site.author.bio_zh }}</p>
-          {% else %}
-            <p class="bio">{{ site.author.bio }}</p>
-          {% endif %}
-          <ul class="socials">
-            {% if site.author.socials.github %}<li><a href="https://github.com/{{ site.author.socials.github }}">GitHub</a></li>{% endif %}
-            {% if site.author.socials.linkedin %}<li><a href="https://www.linkedin.com/in/{{ site.author.socials.linkedin }}">LinkedIn</a></li>{% endif %}
-            {% if site.author.socials.instagram %}<li><a href="https://www.instagram.com/{{ site.author.socials.instagram }}">Instagram</a></li>{% endif %}
-            {% if site.author.socials.threads %}<li><a href="https://www.threads.net/@{{ site.author.socials.threads }}">Threads</a></li>{% endif %}
-            {% if site.author.socials.email %}<li><a href="mailto:{{ site.author.socials.email }}">Email</a></li>{% endif %}
-          </ul>
+<body class="lang-{{ page.lang | default: site.default_lang }}">
+    <div class="site-frame">
+      <header class="site-header">
+        {% include header.html %}
+      </header>
+      <main class="site-main layout-{{ page.layout | default: 'page' }}">
+        <div class="site-main__inner">
+          {{ content }}
         </div>
-      </aside>
-      <section class="content">
-        {{ content }}
-      </section>
-    </main>
-    <footer class="site-footer">
-      {% include footer.html %}
-    </footer>
+      </main>
+      <footer class="site-footer">
+        {% include footer.html %}
+      </footer>
+    </div>
     <script src="{{ '/assets/js/site.js' | relative_url }}" defer></script>
   </body>
 </html>

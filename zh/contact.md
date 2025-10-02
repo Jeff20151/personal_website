@@ -19,4 +19,13 @@ alt_url: /contact/
 - **Calendly** — 即將上線
 - **LinkedIn** — [jeff-zhuang-b45117316](https://www.linkedin.com/in/jeff-zhuang-b45117316)
 
-也可以透過 Threads / Instagram `@taiwanfoodgood` 直接私訊。
+## 社群頻道
+
+- **Instagram** — [@taiwanfoodgood](https://www.instagram.com/taiwanfoodgood/)
+- **Threads** — [@taiwanfoodgood](https://www.threads.com/@taiwanfoodgood)
+- **TikTok** — [@jeffzhuang810](https://www.tiktok.com/@jeffzhuang810?is_from_webapp=1&sender_device=pc)
+- **Twitch** — [cooljeffchuang](https://www.twitch.tv/cooljeffchuang)
+- **Twitter/X** — [@Jeff18175](https://twitter.com/Jeff18175)
+- **YouTube** — [@jeffzhuang](https://www.youtube.com/@jeffzhuang)
+
+若想快速聯絡，歡迎直接在 Instagram 或 Threads 私訊我。

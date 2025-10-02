@@ -1,6 +1,7 @@
 {% assign current_lang = page.lang | default: site.default_lang %}
 {% assign language = site.languages | where: "code", current_lang | first %}
 {% assign nav_items = site.data.navigation[current_lang] | default: site.data.navigation[site.default_lang] %}
+{% assign lines = site.branding.lines[current_lang] | default: site.branding.lines[site.default_lang] %}
 {% if language and language.baseurl %}
   {% assign lang_base = language.baseurl %}
 {% else %}
@@ -18,36 +19,45 @@
   {% assign current_code = 'EN' %}
   {% assign alt_code = 'TW' %}
 {% endif %}
-
-<nav class="nav">
-  <a class="brand" href="{{ home_path | relative_url }}">{{ site.author.name }}</a>
-  <ul>
-    {% for item in nav_items %}
-      <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
-    {% endfor %}
-  </ul>
-  <div class="lang-toggle">
-    {% if current_lang == 'en' %}
-      {% assign alt_lang = 'zh' %}
-    {% else %}
-      {% assign alt_lang = 'en' %}
-    {% endif %}
-    {% assign alt_language = site.languages | where: "code", alt_lang | first %}
-    {% if page.alt_url %}
-      {% assign alt_href = page.alt_url %}
-    {% elsif alt_language and alt_language.baseurl %}
-      {% if alt_language.baseurl == '' %}
-        {% assign alt_href = '/' %}
-      {% else %}
-        {% assign alt_href = alt_language.baseurl | append: '/' %}
-      {% endif %}
-    {% else %}
-      {% assign alt_href = '/' %}
-    {% endif %}
-    <a class="lang-switch lang-{{ current_lang }}" href="{{ alt_href | relative_url }}">
-      <span class="lang-label">{{ current_code }}</span>
-      <span class="lang-knob" aria-hidden="true"></span>
-      <span class="lang-label alt">{{ alt_code }}</span>
+<div class="header-inner">
+  <div class="brand-block">
+    <a href="{{ home_path | relative_url }}">
+      {% for line in lines %}
+        <span>{{ line }}</span>
+      {% endfor %}
     </a>
   </div>
-</nav>
+  <div class="header-nav">
+    <nav class="primary-nav" aria-label="Primary">
+      <ul>
+        {% for item in nav_items %}
+          <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+    <div class="lang-toggle">
+      {% if current_lang == 'en' %}
+        {% assign alt_lang = 'zh' %}
+      {% else %}
+        {% assign alt_lang = 'en' %}
+      {% endif %}
+      {% assign alt_language = site.languages | where: "code", alt_lang | first %}
+      {% if page.alt_url %}
+        {% assign alt_href = page.alt_url %}
+      {% elsif alt_language and alt_language.baseurl %}
+        {% if alt_language.baseurl == '' %}
+          {% assign alt_href = '/' %}
+        {% else %}
+          {% assign alt_href = alt_language.baseurl | append: '/' %}
+        {% endif %}
+      {% else %}
+        {% assign alt_href = '/' %}
+      {% endif %}
+      <a class="lang-switch lang-{{ current_lang }}" href="{{ alt_href | relative_url }}">
+        <span class="lang-label">{{ current_code }}</span>
+        <span class="lang-knob" aria-hidden="true"></span>
+        <span class="lang-label alt">{{ alt_code }}</span>
+      </a>
+    </div>
+  </div>
+</div>

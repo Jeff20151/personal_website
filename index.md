@@ -39,6 +39,7 @@ Explore the full archive on the [Blog](/blog/).
 - **Research** — [Research portfolio](/research/) with papers, slides, and poster downloads.
 - **Projects** — [Projects library](/projects/) covering SaaS prototypes, e-commerce sprints, and community builds.
 - **Art** — [Art collaborations](/art/) with galleries, media features, and behind-the-scenes notes.
+- **Trading Log** — [Market experiments](/trading-log/) documenting decision rules and debriefs.
 
 ## Work Together
 

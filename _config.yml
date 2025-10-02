@@ -13,6 +13,19 @@ languages:
     baseurl: "/zh"
 default_lang: en
 
+branding:
+  lines:
+    en:
+      - "Jeff Chunag"
+      - "Research · Product · Art"
+      - "Trading Log · Commerce"
+      - "Taipei, Taiwan"
+    zh:
+      - "莊詠旭"
+      - "研究 · 產品 · 藝術"
+      - "交易日誌 · 跨境商務"
+      - "台北，台灣"
+
 # Build
 markdown: kramdown
 theme: null
@@ -38,9 +51,20 @@ author:
   socials:
     github: Jeff20151
     linkedin: jeff-zhuang-b45117316
+    instagram: starterjeff
+    threads: starterjeff
+    tiktok: starter_jeff
+    twitch: cooljeffchuang
+    twitter: Jeff18175
+    youtube: JeffChuang-q5d
+    email: tomnandy922@gmail.com
+  socials_zh:
     instagram: taiwanfoodgood
     threads: taiwanfoodgood
-    email: tomnandy922@gmail.com
+    tiktok: jeffzhuang810
+    twitch: cooljeffchuang
+    twitter: Jeff18175
+    youtube: jeffzhuang
 
 # Defaults
 defaults:
