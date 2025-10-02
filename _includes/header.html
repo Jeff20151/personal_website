@@ -11,6 +11,13 @@
 {% else %}
   {% assign home_path = lang_base | append: '/' %}
 {% endif %}
+{% if current_lang == 'zh' %}
+  {% assign current_code = 'TW' %}
+  {% assign alt_code = 'EN' %}
+{% else %}
+  {% assign current_code = 'EN' %}
+  {% assign alt_code = 'TW' %}
+{% endif %}
 
 <nav class="nav">
   <a class="brand" href="{{ home_path | relative_url }}">{{ site.author.name }}</a>
@@ -37,6 +44,10 @@
     {% else %}
       {% assign alt_href = '/' %}
     {% endif %}
-    <a class="lang-link" href="{{ alt_href | relative_url }}">{{ alt_language.label | default: alt_lang }}</a>
+    <a class="lang-switch lang-{{ current_lang }}" href="{{ alt_href | relative_url }}">
+      <span class="lang-label">{{ current_code }}</span>
+      <span class="lang-knob" aria-hidden="true"></span>
+      <span class="lang-label alt">{{ alt_code }}</span>
+    </a>
   </div>
 </nav>
