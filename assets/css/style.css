@@ -5,8 +5,8 @@
 }
 
 @font-face {
-  font-family: "RicksAmerican";
-  src: url("../fonts/RicksAmericanNF.otf") format("opentype");
+  font-family: "PoiretOne";
+  src: url("../fonts/PoiretOne-Regular.ttf") format("truetype");
   font-display: swap;
 }
 
@@ -16,10 +16,10 @@
   --muted: #6a6865;
   --accent: #0f0f0f;
   --border: rgba(15, 15, 15, 0.08);
-  --font-en: "RicksAmerican", "IBM Plex Mono", "SFMono-Regular", Menlo, Monaco, Consolas, "Courier New", monospace;
+  --font-en: "PoiretOne", "IBM Plex Mono", "SFMono-Regular", Menlo, Monaco, Consolas, "Courier New", monospace;
   --font-zh: "Songti TC", "Noto Serif TC", "Source Han Serif TC", "PingFang TC", "Heiti TC", serif;
-  --font-display: "Amsterline", "RicksAmerican", "IBM Plex Mono", monospace;
-  --font-accent: "Amsterline", "RicksAmerican", "IBM Plex Mono", monospace;
+  --font-display: "Amsterline", "PoiretOne", "IBM Plex Mono", monospace;
+  --font-accent: "Amsterline", "PoiretOne", "IBM Plex Mono", monospace;
 }
 
 * {
