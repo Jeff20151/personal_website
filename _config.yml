@@ -26,10 +26,10 @@ default_lang: en
 branding:
   lines:
     en:
-      - "Jeff Chunag"
+      - "Jeff Chuang"
       - "Research · Product · Art"
       - "Trading Log · Commerce"
-      - "Taipei, Taiwan"
+      - "Taipei, Taiwan, World"
     zh:
       - "莊詠旭"
       - "研究 · 產品 · 藝術"
@@ -106,7 +106,7 @@ tag_page: /tags
 # SEO
 seo:
   type: "Person"
-  name: "Jeff Chunag"
+  name: "Jeff Chuang"
 
 # Exclude from processing
 exclude:

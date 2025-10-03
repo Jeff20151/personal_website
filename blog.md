@@ -1,7 +1,7 @@
 ---
 layout: home
 title: "Blog"
-description: "Thoughts on research, SaaS experiments, and cross-border commerce."
+description: "Research notes, SaaS product experiments, and cross-border commerce operations."
 permalink: /blog/
 lang: en
 alt_url: /zh/blog/
