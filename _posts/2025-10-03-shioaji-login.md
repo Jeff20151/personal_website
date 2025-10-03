@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Token Before Trades: Wiring Sinopac Shioaji the Right Way"
+title: "Auto Trading? Try Sinopac Shioaji"
 date: 2025-10-03
 lang: en
 alt_url: /zh/2025/10/03/shioaji-login/

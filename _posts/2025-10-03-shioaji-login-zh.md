@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "先把 Token 調順：Sinopac Shioaji 登入的第一性原理"
+title: "想學自動化交易？試試 Sinopac Shioaji"
 date: 2025-10-03
 lang: zh
 alt_url: /2025/10/03/shioaji-login/
