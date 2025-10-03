@@ -1,8 +1,18 @@
-title: Jeff Chunag
-description: "Notes on dropshipping, SaaS experiments, and a multi-hyphenate builder journey."
-description_zh: "記錄 Dropshipping、SaaS 實驗與多重身份的創作者旅程。"
+title: Jeff Chuang ｜ 莊詠旭
+description: "Jeff Chuang (莊詠旭) blends biotech research, startups, investment, and art into cross-domain systems."
+description_zh: "莊詠旭（Jeff Chuang）結合生醫研究、新創、投資與藝術，打造跨領域系統化培育。"
 url: https://Jeff20151.github.io
 baseurl: "/personal_website"
+
+keywords:
+  - Jeff Chuang
+  - 莊詠旭
+  - BioDesign Challenge
+  - PresenterAI
+  - Cross-border commerce
+  - 生物設計
+
+google_site_verification: Z6Thpqg5fJqP888QIVFIKf-_sGjNBZCqOtY0sc98-4A
 
 languages:
   - code: en
@@ -36,13 +46,15 @@ plugins:
 
 # Author profile (used in sidebar and meta)
 author:
-  name: "Jeff Chunag"
+  name: "Jeff Chuang"
   aliases:
     - "Jeff"
+    - "Jeff Chuang"
     - "Yunghsu Chuang"
     - "莊詠旭"
   title: "National Taiwan University BST · BEBI"
   title_zh: "國立台灣大學 科技系 · 生醫電資所"
+  job_title: "Biodesign researcher and systems builder"
   email: "tomnandy922@gmail.com"
   location: "Taipei, Taiwan"
   bio: "Building across dropshipping,<br>SaaS launches,<br>and culture-driven storytelling."
@@ -58,6 +70,12 @@ author:
     twitter: Jeff18175
     youtube: JeffChuang-q5d
     email: tomnandy922@gmail.com
+  same_as:
+    - https://www.linkedin.com/in/jeff-zhuang-b45117316
+    - https://www.instagram.com/starterjeff/
+    - https://twitter.com/Jeff18175
+    - https://www.twitch.tv/cooljeffchuang
+    - https://www.youtube.com/@JeffChuang-q5d
   socials_zh:
     instagram: taiwanfoodgood
     threads: taiwanfoodgood

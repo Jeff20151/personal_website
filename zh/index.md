@@ -4,6 +4,12 @@ title: "莊詠旭 Jeff Chunag — 研究 × 產品 × 藝術"
 description: "雙語個人網站，匯整研究專案、產品實驗與藝術合作。"
 lang: zh
 alt_url: /
+keywords:
+  - 莊詠旭
+  - 生物設計
+  - 新創
+  - 投資
+  - 跨領域
 permalink: /zh/
 ---
 

@@ -6,7 +6,12 @@
   {% assign meta_description = page.description | default: site.description_zh %}
 {% endif %}
 <meta name="description" content="{{ meta_description }}">
-<meta name="google-site-verification" content="Z6Thpqg5fJqP888QIVFIKf-_sGjNBZCqOtY0sc98-4A">
+{% assign meta_keywords = page.keywords | default: site.keywords %}
+{% if meta_keywords %}
+  {% if meta_keywords | join: '' %}
+    <meta name="keywords" content="{{ meta_keywords | join: ', ' }}">
+  {% endif %}
+{% endif %}
 {% seo %}
 {% assign current_lang = page.lang | default: site.default_lang %}
 <link rel="alternate" href="{{ page.url | relative_url | absolute_url }}" hreflang="{{ current_lang }}">
@@ -20,3 +25,20 @@
 {% endif %}
 <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+{% assign same_as_links = site.author.same_as | default: '' %}
+{% assign same_as_count = same_as_links | size %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "{{ site.author.name | escape }}",
+  "alternateName": [{% for alias in site.author.aliases %}"{{ alias | escape }}"{% unless forloop.last %}, {% endunless %}{% endfor %}],
+  "jobTitle": "{{ site.author.job_title | default: site.author.title | escape }}",
+  "description": "{{ meta_description | strip_newlines | escape }}",
+  "url": "{{ site.url }}{{ site.baseurl }}",
+  "image": "{{ site.url }}{{ site.baseurl }}{{ site.author.avatar }}",
+  {% if same_as_count > 0 %}
+  "sameAs": [{% for profile in same_as_links %}"{{ profile | escape }}"{% unless forloop.last %}, {% endunless %}{% endfor %}]{% else %}
+  "sameAs": []{% endif %}
+}
+</script>

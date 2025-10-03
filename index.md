@@ -5,6 +5,12 @@ description: "Bilingual hub for research, product experiments, and art projects.
 lang: en
 alt_url: /zh/
 permalink: /
+keywords:
+  - Jeff Chuang
+  - Biodesign
+  - Cross-border commerce
+  - PresenterAI
+  - Startup research
 ---
 
 # Startups × Capital × Art × Research
