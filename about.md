@@ -7,18 +7,20 @@ lang: en
 alt_url: /zh/about/
 ---
 
+About Jeff Chunag │
+
 ## Profile
 
-I am a Biomedical Electronics & Bioinformatics (BEBI) graduate researcher at National Taiwan University, exploring how synthetic biology and sensing systems can leap from prototypes to real-world services. I also steward culture-driven product experiments that bring research narratives to global audiences.
+I graduated from NTU’s Department of Biochemical Science and Technology and now pursue research at NTU’s Graduate Institute of Biomedical Electronics and Bioinformatics while serving with NTU d.school. My process follows first principles: define irreducible questions, design lean hypotheses, and let results steer product and venture decisions. In research, I focus on biomedical data with generative/contrastive models designed for reproducibility and evaluation. As co-founder of PresenterAI I translate academic inputs into generative presentations; in commerce I run cross-border automation loops to chase product–market fit; and in education I’ve mentored students at Hsinchu, Kang Chiao, iGEM, and Biodesign Challenge to connect science, startups, and creative practice.
 
 ## Milestones
 
-- 🥇 **2024 iGEM Graduate Team — Gold Medal** with [Team NTU Taiwan](https://2024.igem.wiki/ntu-taiwan/).
-- 👨‍🏫 **2025 Biodesign Challenge — Instructor** guiding biotech sprint teams.
-- 🧑‍⚖️ **2025 iGEM Judge** for synthetic biology teams worldwide.
-- 🚀 **市檜 (Shihui) CEO** blending Taiwanese craft with sustainable materials.
-- 💡 **PresenterAI Co-founder** focusing on generative research storytelling.
-- 🌐 **Cross-border Commerce Builder** running dropshipping funnels and growth analytics.
+- 🥇 2024 iGEM Graduate Team Gold — [NTU Taiwan](https://2024.igem.wiki/ntu-taiwan/)
+- 👨‍🏫 2025 Biodesign Challenge Instructor — guiding biotech × art sprints
+- 🧑‍⚖️ 2025 iGEM Judge — exchanging with global synthetic biology teams
+- 🚀 Shihui CEO — pairing AI with cross-border dropshipping
+- 💡 PresenterAI Co-founder — building a research storytelling slide generator
+- 🌐 Cross-border operator — sustaining automation-driven growth loops
 
 ## Coordinates
 
@@ -32,4 +34,4 @@ I am a Biomedical Electronics & Bioinformatics (BEBI) graduate researcher at Nat
 - **Twitch** — [cooljeffchuang](https://www.twitch.tv/cooljeffchuang)
 - **Twitter/X** — [@Jeff18175](https://twitter.com/Jeff18175)
 
-Focus: Research-driven product builder across bioinformatics, e-commerce, and SaaS automation.
+Focus: Research-led product builder across bioinformatics, cross-border commerce, and SaaS automation.
