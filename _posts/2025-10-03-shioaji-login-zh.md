@@ -5,7 +5,7 @@ date: 2025-10-03
 lang: zh
 alt_url: /2025/10/03/shioaji-login/
 tags: [交易日誌, 自動化]
-permalink: /zh/:year/:month/:day/:title/
+permalink: /zh/2025/10/03/shioaji-login/
 ---
 
 在任何策略進場之前，我先確認券商 API 的登入流程是可重現的。以永豐金 Shioaji 為例，核心是他們在文件裡揭露的 Token 驗證 (<https://sinotrade.github.io/zh/tutor/prepare/terms/>)。下面是我在自動化交易前必做的流程，確保系統在未獲得簽署帳號時就停止。

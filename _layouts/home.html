@@ -1,7 +1,8 @@
 ---
 layout: default
 ---
-{% assign posts = site.posts | where: "lang", page.lang | sort: "date" | reverse %}
+{% assign all_posts = site.posts | where: "lang", page.lang | sort: "date" | reverse %}
+{% assign posts = all_posts | where_exp: "post", "post.layout != 'trading-post'" %}
 <h1>{{ page.title | default: site.title }}</h1>
 {% for post in posts %}
   <article class="post-card">
