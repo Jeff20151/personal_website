@@ -11,6 +11,8 @@ en:
     url: /projects/
   - title: Art
     url: /art/
+  - title: Course
+    url: /course/
   - title: About
     url: /about/
   - title: Contact
@@ -28,6 +30,8 @@ zh:
     url: /zh/projects/
   - title: 藝術
     url: /zh/art/
+  - title: 課程報名
+    url: /zh/course/
   - title: 關於
     url: /zh/about/
   - title: 聯絡
