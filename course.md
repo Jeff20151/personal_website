@@ -8,60 +8,59 @@ alt_url: /zh/course/
 ---
 
 <section class="course-header">
-  <p class="breadcrumb">2026 Course / BioDesign & Other Matters</p>
-  <h1>BioDesign & Other Matters</h1>
-  <p class="subtitle">Cross-disciplinary creation through life-systems thinking</p>
-  <a class="course-cta" href="mailto:tomnandy922@gmail.com?subject=Course%20Registration">Apply</a>
+  <p class="breadcrumb">2026 Program / Immersive Systems Studio</p>
+  <h1>Systems Integration Immersive</h1>
+  <p class="subtitle">A cross-domain intensive for founders, researchers, and artists</p>
+  <a class="course-cta" href="mailto:tomnandy922@gmail.com?subject=Course%20Application">Apply</a>
 </section>
 
 <section class="course-meta">
   <dl>
     <div>
       <dt>Course Name</dt>
-      <dd>BioDesign & Other Matters</dd>
+      <dd>Systems Integration Immersive</dd>
     </div>
     <div>
       <dt>Subtitle</dt>
-      <dd>Cross-disciplinary creation through life systems</dd>
+      <dd>Cross-disciplinary cultivation for people who refuse single lanes</dd>
     </div>
     <div>
       <dt>Lecturers</dt>
-      <dd>
-        <span>Laurent Hsia</span>
-        <span>Rae Yu-Ping Hsu</span>
-        <span>Paul Gong</span>
-        <span>Kuang-Yi Ku</span>
-      </dd>
+      <dd>Jeff Chunag</dd>
     </div>
     <div>
       <dt>Audience</dt>
-      <dd>High school students / Early university creatives</dd>
+      <dd>All humans — no prerequisite discipline, only curiosity for cross-domain work.</dd>
     </div>
     <div>
       <dt>Prerequisites</dt>
-      <dd>Strong curiosity and English reading/writing ability</dd>
+      <dd><pre><code>if your_work == your_life:
+    print("ok, welcome")
+</code></pre></dd>
     </div>
     <div>
       <dt>Schedule</dt>
-      <dd>February – July 2026 · Saturdays 9AM – 4PM · ~15 sessions (final calendar shared upon registration)</dd>
-    </div>
-    <div>
-      <dt>Competition</dt>
-      <dd>BDC 2026 (Bio-Design Challenge) showcase @ MoMA PS1</dd>
+      <dd>3-month immersive training · Weekly themed sessions + systemized project practice</dd>
     </div>
     <div>
       <dt>Location</dt>
-      <dd>Taipei, Taiwan</dd>
+      <dd>The whole world 🌍 — live via Google Meet / Discord / Notion</dd>
     </div>
     <div>
-      <dt>Application Deadline</dt>
-      <dd>January 15, 2026</dd>
+      <dt>You Will Learn</dt>
+      <dd>
+        <span><strong>Business Thinking</strong> — Crafting business plans that move ideas into deployment.</span>
+        <span><strong>Fintech</strong> — Automated trading and risk management with SJ-API.</span>
+        <span><strong>Artificial Intelligence</strong> — Foundations and practice of machine learning.</span>
+        <span><strong>Math × Art</strong> — Generative art through mathematical methods.</span>
+        <span><strong>Integration</strong> — Storyweaving research, product, capital, and art.</span>
+      </dd>
     </div>
   </dl>
 </section>
 
 <section class="course-body">
-  <p><strong>BioDesign & Other Matters</strong> is a guided studio that invites high school makers to explore the world of biodesign. The program bridges living systems research with speculative narratives, asking participants to design futures that are both rigorous and empathetic.</p>
-  <p>Across the semester, learners move between labs and community fieldwork. They experiment with biological materials, biodesign techniques, and narrative devices to translate insights into public prototypes. Rather than chasing quick solutions, teams stress-test ideas with mentors, iterate in material labs, and document each cycle.</p>
-  <p>The cohort will develop signature projects to present at BioDesign Challenge 2026. Alumni receive ongoing mentorship for global showcases and university applications.</p>
+  <p><strong>Systems Integration Immersive</strong> is a three-month studio for people who want to synthesize research, commerce, art, and capital. Instead of siloed workshops, each theme is paired with a production sprint, forcing participants to express insights through shipping artifacts.</p>
+  <p>Every week combines short theory download, hands-on tool time, and project critique. You’ll pair-build, stress-test, and ship across domains: from market models to generative art to automation pipelines. Mentors push for evidence-backed decisions and narrative clarity.</p>
+  <p>Graduates emerge with a portfolio that speaks to investors, collaborators, and cultural partners—plus the systems thinking required to keep iterating in public.</p>
 </section>

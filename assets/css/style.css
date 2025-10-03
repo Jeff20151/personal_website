@@ -11,11 +11,11 @@
 }
 
 :root {
-  --bg: #f5f3ef;
-  --fg: #1e1c1a;
-  --muted: #6a6865;
-  --accent: #0f0f0f;
-  --border: rgba(15, 15, 15, 0.08);
+  --bg: #fdfdfb;
+  --fg: #181614;
+  --muted: #9b9792;
+  --accent: #0b0a08;
+  --border: rgba(24, 22, 20, 0.05);
   --font-en: "TerminalDosis", "IBM Plex Mono", "SFMono-Regular", Menlo, Monaco, Consolas, "Courier New", monospace;
   --font-zh: "Songti TC", "Noto Serif TC", "Source Han Serif TC", "PingFang TC", "Heiti TC", serif;
   --font-display: "Amsterline", "TerminalDosis", "IBM Plex Mono", monospace;
@@ -145,10 +145,10 @@ pre {
   position: fixed;
   inset: 80px;
   background:
-    radial-gradient(circle at 20% 30%, transparent 0 240px, rgba(0, 0, 0, 0.12) 240px 244px, transparent 244px 100%),
-    radial-gradient(circle at 80% 30%, transparent 0 240px, rgba(0, 0, 0, 0.12) 240px 244px, transparent 244px 100%),
-    radial-gradient(circle at 50% 70%, transparent 0 260px, rgba(0, 0, 0, 0.1) 260px 264px, transparent 264px 100%);
-  opacity: 0.25;
+    radial-gradient(circle at 20% 30%, transparent 0 240px, rgba(0, 0, 0, 0.08) 240px 244px, transparent 244px 100%),
+    radial-gradient(circle at 80% 30%, transparent 0 240px, rgba(0, 0, 0, 0.08) 240px 244px, transparent 244px 100%),
+    radial-gradient(circle at 50% 70%, transparent 0 260px, rgba(0, 0, 0, 0.06) 260px 264px, transparent 264px 100%);
+  opacity: 0.16;
   z-index: -1;
   pointer-events: none;
 }
@@ -587,7 +587,7 @@ body.lang-zh .course-header h1 {
   align-self: flex-start;
   display: inline-flex;
   padding: 8px 16px;
-  border: 1px solid rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(24, 22, 20, 0.18);
   border-radius: 8px;
   font-size: 12px;
   letter-spacing: 0.18em;
@@ -595,7 +595,7 @@ body.lang-zh .course-header h1 {
 }
 
 .course-cta:hover {
-  background: rgba(0, 0, 0, 0.08);
+  background: rgba(24, 22, 20, 0.08);
 }
 
 .course-meta dl {
