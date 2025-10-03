@@ -20,14 +20,5 @@ alt_url: /trading-log/
 
   <h2>最新紀錄</h2>
 
-  <article class="trading-entry">
-    <div class="entry-header">
-      <h3><a href="/zh/2025/10/03/shioaji-login/" class="entry-title-link">想學自動化交易？試試 Sinopac Shioaji</a></h3>
-      <div class="entry-meta">
-        <time>2025年10月3日</time> • <span class="tags">#交易日誌 #自動化</span>
-      </div>
-    </div>
-    <p class="entry-excerpt">在任何策略進場之前，我先確認券商 API 的登入流程是可重現的。以永豐金 Shioaji 為例，核心是他們在文件裡揭露的 Token 驗證。下面是我在自動化交易前必做的流程，確保系統在未獲得簽署帳號時就停止。</p>
-    <a href="/zh/2025/10/03/shioaji-login/" class="read-more-btn">→ 閱讀完整文章</a>
-  </article>
+  <p><em>自動化交易策略開發完成後，相關文章將在此發布。</em></p>
 </div>
