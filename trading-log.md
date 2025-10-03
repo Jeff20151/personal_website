@@ -8,15 +8,13 @@ alt_url: /zh/trading-log/
 ---
 
 <div class="page-body">
-  <p>I use this space to record the systems, hypotheses, and post-mortems behind each trading sprint. Entries focus on data sources, execution discipline, and how the results feed back into product decisions.</p>
+  <p>Every entry here is a first-principles audit of an automated trade: the hypothesis, the data plumbing, the execution script, and the post-trade decision loop. Each log ships with runnable code so you can trace the exact mechanics.</p>
 
-  <h2>Currently Tracking</h2>
+  <h2>Systems Under Observation</h2>
   <ul>
-    <li><strong>FX Macro Diary</strong> — Weekly narrative tying policy signals to position sizing.</li>
-    <li><strong>Night Market Commodities Basket</strong> — Experimenting with cross-border demand hedges.</li>
-    <li><strong>Automation Lab</strong> — Testing Python agents that reconcile brokerage data with SaaS dashboards.</li>
+    <li><strong>Policy × Position Loop</strong> — Daily linkage between macro signals and position sizing; nothing is assumed without a data citation.</li>
+    <li><strong>Automation Stack</strong> — Python agents syncing broker ledgers (Sinopac Shioaji) into internal dashboards for reconciliation and risk triggers.</li>
   </ul>
 
-  <h2>Log Backlog</h2>
-  <p>Detailed posts are rolling out; subscribe via <a href="{{ '/feed.xml' | relative_url }}">RSS</a> or ping me on Threads if you want early drafts.</p>
+  <p>Expect each update to read like a lab note: explicit assumptions, instrumented code, and the product decisions the trade unlocks.</p>
 </div>
