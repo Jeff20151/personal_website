@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: trading-post
 title: "Auto Trading? Try Sinopac Shioaji"
 date: 2025-10-03
 lang: en

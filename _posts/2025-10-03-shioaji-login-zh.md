@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: trading-post
 title: "想學自動化交易？試試 Sinopac Shioaji"
 date: 2025-10-03
 lang: zh

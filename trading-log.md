@@ -21,8 +21,13 @@ alt_url: /zh/trading-log/
   <h2>Recent Entries</h2>
 
   <article class="trading-entry">
-    <h3><a href="/2025/10/03/shioaji-login/">Token Before Trades: Wiring Sinopac Shioaji the Right Way</a></h3>
-    <time>Oct 03, 2025</time> • <span class="tags">#trading-log #automation</span>
-    <p>Before any strategy touches money, I prove that the brokerage login flow is deterministic. For Sinopac's Shioaji API, that means respecting the token handshake documented in their guide. Here is the minimal, testable setup I deploy before a single order fires.</p>
+    <div class="entry-header">
+      <h3><a href="/2025/10/03/shioaji-login/" class="entry-title-link">Auto Trading? Try Sinopac Shioaji</a></h3>
+      <div class="entry-meta">
+        <time>Oct 03, 2025</time> • <span class="tags">#trading-log #automation</span>
+      </div>
+    </div>
+    <p class="entry-excerpt">Before any strategy touches money, I prove that the brokerage login flow is deterministic. For Sinopac's Shioaji API, that means respecting the token handshake documented in their guide. Here is the minimal, testable setup I deploy before a single order fires.</p>
+    <a href="/2025/10/03/shioaji-login/" class="read-more-btn">→ Read Full Article</a>
   </article>
 </div>

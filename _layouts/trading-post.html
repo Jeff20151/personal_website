@@ -1,0 +1,8 @@
+---
+layout: default
+---
+<article class="trading-post">
+  <h1>{{ page.title }}</h1>
+  <div class="meta">{{ page.date | date: "%b %d, %Y" }} &bull; {% include post-meta.html post=page %}</div>
+  <div class="post-body">{{ content }}</div>
+</article>
