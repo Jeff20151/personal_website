@@ -1,10 +1,12 @@
 ---
-layout: trading-post
+layout: post
 title: "Auto Trading? Try Sinopac Shioaji"
 date: 2025-10-03
 lang: en
 alt_url: /zh/2025/10/03/shioaji-login/
 tags: [trading-log, automation]
+exclude_from_blog: true
+permalink: /2025/10/03/shioaji-login/
 ---
 
 Before any strategy touches money, I prove that the brokerage login flow is deterministic. For Sinopac’s Shioaji API, that means respecting the token handshake documented in their guide (<https://sinotrade.github.io/zh/tutor/prepare/terms/>). Here is the minimal, testable setup I deploy before a single order fires.

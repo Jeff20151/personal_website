@@ -1,10 +1,11 @@
 ---
-layout: trading-post
+layout: post
 title: "想學自動化交易？試試 Sinopac Shioaji"
 date: 2025-10-03
 lang: zh
 alt_url: /2025/10/03/shioaji-login/
 tags: [交易日誌, 自動化]
+exclude_from_blog: true
 permalink: /zh/2025/10/03/shioaji-login/
 ---
 
