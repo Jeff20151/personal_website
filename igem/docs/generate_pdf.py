@@ -315,7 +315,7 @@ def build_pdf():
     )
 
     add_h2(pdf, "Program Structure & Timeline")
-    add_paragraph(pdf, "Program Duration: approx. Jan 2026 – Oct 2026")
+    add_paragraph(pdf, "Program Duration: approx. Jan 2026 – Oct 2026 (aligned to official iGEM calendar)")
     add_paragraph(pdf, "Format: Online sessions (theory, modeling, project meetings) + On-site sessions (lab work, intensive bootcamps, mock presentations)")
     add_paragraph(pdf, "Main phases:")
     add_bullets(
