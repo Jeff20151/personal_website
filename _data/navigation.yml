@@ -5,14 +5,10 @@ en:
     url: /research/
   - title: Blog
     url: /blog/
-  - title: Trading Log
-    url: /trading-log/
   - title: Projects
     url: /projects/
   - title: iGEM
     url: /igem/
-  - title: Art
-    url: /art/
   - title: Course
     url: /course/
   - title: About
@@ -26,14 +22,10 @@ zh:
     url: /zh/research/
   - title: 部落格
     url: /zh/blog/
-  - title: 交易日誌
-    url: /zh/trading-log/
   - title: 專案
     url: /zh/projects/
   - title: iGEM 訓練營
     url: /igem/
-  - title: 藝術
-    url: /zh/art/
   - title: 課程報名
     url: /zh/course/
   - title: 關於

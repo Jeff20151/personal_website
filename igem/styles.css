@@ -30,32 +30,6 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-.page-igem .site-frame {
-  padding: 18px 18px 0;
-}
-
-.page-igem .site-frame::before {
-  display: none;
-}
-
-.page-igem .site-main {
-  padding: 0;
-}
-
-.page-igem .site-main__inner {
-  width: 100%;
-  max-width: none;
-  padding: 0;
-}
-
-.page-igem .page--igem {
-  min-height: 100vh;
-  padding: 0;
-  background: transparent;
-  border: none;
-  box-shadow: none;
-}
-
 .bg-layer {
   position: fixed;
   inset: 0;
@@ -63,7 +37,7 @@ body {
   z-index: -2;
 }
 
-.igem-main {
+main {
   width: min(1200px, 92vw);
   margin: 0 auto 96px;
   padding-top: 120px;
@@ -491,7 +465,7 @@ html[data-lang="en"] [data-lang-content="zh"] {
     justify-content: center;
   }
 
-  .igem-main {
+  main {
     padding-top: 140px;
   }
 
@@ -526,4 +500,29 @@ html[data-lang="en"] [data-lang-content="zh"] {
   .timeline li {
     grid-template-columns: 1fr;
   }
+}
+
+/* Jekyll wrapper tweaks so the iGEM page can sit full-bleed */
+.page-igem .site-frame {
+  padding: 0;
+  background: transparent;
+}
+
+.page-igem .site-frame::before {
+  display: none;
+}
+
+.page-igem .site-main,
+.page-igem .site-main__inner {
+  padding: 0;
+  max-width: none;
+  width: 100%;
+}
+
+.page-igem .page--igem {
+  min-height: 100vh;
+  padding: 0;
+  background: transparent;
+  border: none;
+  box-shadow: none;
 }
