@@ -1,7 +1,7 @@
 ---
 layout: landing
-title: "Jeff Chunag — Research × Art × Product"
-description: "Bilingual hub for research, product experiments, and art projects."
+title: "Jeff Chunag — Research × Product × Systems"
+description: "Bilingual hub for research, product experiments, and narrative/product systems."
 lang: en
 alt_url: /zh/
 permalink: /
@@ -13,9 +13,9 @@ keywords:
   - Startup research
 ---
 
-# Startups × Capital × Art × Research
+# Startups × Capital × Research × Product
 
-When AI redefines labor and gene editing rewrites what life can be, single-track careers feel insufficient. I’m building at the intersections—braiding startup speed, artistic empathy, and research rigor to surface answers that actually move people forward.
+When AI redefines labor and gene editing rewrites what life can be, single-track careers feel insufficient. I’m building at the intersections—braiding startup speed, narrative empathy, and research rigor to surface answers that actually move people forward.
 
 ---
 
@@ -23,7 +23,7 @@ When AI redefines labor and gene editing rewrites what life can be, single-track
 
 - **Research Programs** — With NTU BEBI labs, modeling gene expression from **spatial transcriptomics** data to fuse imaging and genomics.
 - **Company Sprints** — Running **SaaS rapid iterations** and **cross-border commerce tests** to pressure-test market demand.
-- **Art Narratives** — Translating **math and policy** into sensory stories that audiences can feel before they understand.
+- **Narrative Systems** — Translating **math and policy** into stories and products people can feel before they understand.
 
 ---
 
@@ -57,6 +57,6 @@ Browse the full archive on the [Blog](/blog/); I publish one essay a week around
 
 ## Collaborate & Connect
 
-Reach out at [tomnandy922@gmail.com](mailto:tomnandy922@gmail.com) or [LinkedIn](https://www.linkedin.com/in/jeff-zhuang-b45117316).
+Reach out at [tomnandy922@gmail.com](mailto:tomnandy922@gmail.com) or [LinkedIn](https://www.linkedin.com/in/yunghsu-chuang-b45117316).
 
 I stream nightly on [Twitch](https://www.twitch.tv/cooljeffchuang) from 20:00–22:00, unpacking research notes and founder routines.

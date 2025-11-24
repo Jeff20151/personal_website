@@ -1,7 +1,7 @@
 ---
 layout: landing
-title: "莊詠旭 Jeff Chunag — 研究 × 產品 × 藝術"
-description: "雙語個人網站，匯整研究專案、產品實驗與藝術合作。"
+title: "莊詠旭 Jeff Chunag — 研究 × 產品 × 系統"
+description: "雙語個人網站，匯整研究專案與產品實驗，強調系統與敘事。"
 lang: zh
 alt_url: /
 keywords:
@@ -13,9 +13,9 @@ keywords:
 permalink: /zh/
 ---
 
-# 新創 × 投資 × 藝術 × 研究
+# 新創 × 投資 × 研究 × 產品
 
-當人工智慧重塑勞動、基因編輯改寫生命藍圖，我相信單一職業框架已不足以回應這個世代的難題。於是我選擇把商業的速度、藝術的感知與研究的嚴謹交織在一起，持續尋找推動人類前進的答案。
+當人工智慧重塑勞動、基因編輯改寫生命藍圖，我相信單一職業框架已不足以回應這個世代的難題。於是我選擇把商業的速度、敘事與設計的感知與研究的嚴謹交織在一起，持續尋找推動人類前進的答案。
 
 ---
 
@@ -23,7 +23,7 @@ permalink: /zh/
 
 - **研究計畫** — 與台大生醫電子所合作，進行 **Spatial Transcriptomics 基因表現預測**，連結醫學影像與基因資訊。
 - **新創公司** — 透過 **SaaS 快速迭代** 與 **跨境電商測試** 驗證市場需求，追求從 0 到 1 的產品突破。
-- **藝術敘事** — 把 **數學與美學** 結合，讓抽象數據與政策議題化為可被感受的故事。
+- **敘事系統** — 把 **數學與政策** 結合，讓抽象數據化為可被感受的故事與產品。
 
 ---
 
@@ -57,6 +57,6 @@ permalink: /zh/
 
 ## 合作與交流
 
-歡迎來信 [tomnandy922@gmail.com](mailto:tomnandy922@gmail.com) 或透過 [LinkedIn](https://www.linkedin.com/in/jeff-zhuang-b45117316) 聯繫。
+歡迎來信 [tomnandy922@gmail.com](mailto:tomnandy922@gmail.com) 或透過 [LinkedIn](https://www.linkedin.com/in/yunghsu-chuang-b45117316) 聯繫。
 
 🟣 每晚 20:00-22:00，我都在 [Twitch](https://www.twitch.tv/cooljeffchuang) 分享研究與創業日常。

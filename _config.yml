@@ -1,6 +1,6 @@
 title: Jeff Chuang ｜ 莊詠旭
-description: "Jeff Chuang (莊詠旭) blends biotech research, startups, investment, and art into cross-domain systems."
-description_zh: "莊詠旭（Jeff Chuang）結合生醫研究、新創、投資與藝術，打造跨領域系統化培育。"
+description: "Jeff Chuang (莊詠旭) blends biotech research, startups, and investment into cross-domain systems."
+description_zh: "莊詠旭（Jeff Chuang）結合生醫研究、新創與投資，打造跨領域系統化培育。"
 url: https://Jeff20151.github.io
 baseurl: "/personal_website"
 
@@ -27,13 +27,13 @@ branding:
   lines:
     en:
       - "Jeff Chuang"
-      - "Research · Product · Art"
-      - "Trading Log · Commerce"
+      - "Research · Product · Systems"
+      - "Modeling · Commerce"
       - "Taipei, Taiwan, World"
     zh:
       - "莊詠旭"
-      - "研究 · 產品 · 藝術"
-      - "交易日誌 · 跨境商務"
+      - "研究 · 產品 · 系統"
+      - "建模 · 跨境商務"
       - "台北，台灣，世界"
 
 # Build
@@ -62,7 +62,7 @@ author:
   avatar: "/assets/img/avatar.jpg"
   socials:
     github: Jeff20151
-    linkedin: jeff-zhuang-b45117316
+    linkedin: yunghsu-chuang-b45117316
     instagram: starterjeff
     threads: starterjeff
     tiktok: starter_jeff
@@ -71,7 +71,7 @@ author:
     youtube: JeffChuang-q5d
     email: tomnandy922@gmail.com
   same_as:
-    - https://www.linkedin.com/in/jeff-zhuang-b45117316
+    - https://www.linkedin.com/in/yunghsu-chuang-b45117316
     - https://www.instagram.com/starterjeff/
     - https://twitter.com/Jeff18175
     - https://www.twitch.tv/cooljeffchuang

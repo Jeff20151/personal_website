@@ -17,7 +17,7 @@ alt_url: /zh/contact/
 
 - **Email** — [tomnandy922@gmail.com](mailto:tomnandy922@gmail.com)
 - **Calendly** — Coming soon
-- **LinkedIn** — [jeff-zhuang-b45117316](https://www.linkedin.com/in/jeff-zhuang-b45117316)
+- **LinkedIn** — [yunghsu-chuang-b45117316](https://www.linkedin.com/in/yunghsu-chuang-b45117316)
 
 ## Social Channels
 

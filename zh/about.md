@@ -16,7 +16,7 @@ alt_url: /about/
 ## 重要節點
 
 - 🥇 2024 iGEM 研究生隊金牌 — [台大 NTU Taiwan 隊伍](https://2024.igem.wiki/ntu-taiwan/)。
-- 👨‍🏫 2025 Biodesign Challenge 指導老師 — 帶領生技×藝術創新衝刺。
+- 👨‍🏫 2025 Biodesign Challenge 指導老師 — 帶領生技×設計創新衝刺。
 - 🧑‍⚖️ 2025 iGEM 評審 — 與全球合成生物學團隊交流。
 - 🚀 市檜（Shihui）執行長 — 結合 AI 經營 dropshipping。
 - 💡 PresenterAI 共同創辦人 — 打造研究敘事的 slide 生成工具。
@@ -29,7 +29,7 @@ alt_url: /about/
 ## 聯絡方式
 
 - **Email** — [tomnandy922@gmail.com](mailto:tomnandy922@gmail.com)
-- **LinkedIn** — [jeff-zhuang-b45117316](https://www.linkedin.com/in/jeff-zhuang-b45117316)
+- **LinkedIn** — [yunghsu-chuang-b45117316](https://www.linkedin.com/in/yunghsu-chuang-b45117316)
 - **GitHub** — [Jeff20151](https://github.com/Jeff20151)
 - **Instagram** — [@taiwanfoodgood](https://www.instagram.com/taiwanfoodgood/)
 - **Threads** — [@taiwanfoodgood](https://www.threads.com/@taiwanfoodgood)
