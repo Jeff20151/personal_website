@@ -9,8 +9,6 @@ en:
     url: /projects/
   - title: iGEM
     url: /igem/
-  - title: Course
-    url: /course/
   - title: About
     url: /about/
   - title: Contact
@@ -26,8 +24,6 @@ zh:
     url: /zh/projects/
   - title: iGEM 訓練營
     url: /igem/
-  - title: 課程報名
-    url: /zh/course/
   - title: 關於
     url: /zh/about/
   - title: 聯絡
