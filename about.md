@@ -25,7 +25,7 @@ I graduated from NTU’s Department of Biochemical Science and Technology and no
 ## Coordinates
 
 - **Email** — [tomnandy922@gmail.com](mailto:tomnandy922@gmail.com)
-- **LinkedIn** — [yunghsu-chuang-b45117316](https://www.linkedin.com/in/yunghsu-chuang-b45117316)
+- **LinkedIn** — [www.linkedin.com/in/yunghsu-chuang-b45117316](https://www.linkedin.com/in/yunghsu-chuang-b45117316)
 - **GitHub** — [Jeff20151](https://github.com/Jeff20151)
 - **Instagram** — [@starterjeff](https://www.instagram.com/starterjeff/)
 - **Threads** — [@starterjeff](https://www.threads.com/@starterjeff)

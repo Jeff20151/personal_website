@@ -57,6 +57,6 @@ Browse the full archive on the [Blog](/blog/); I publish one essay a week around
 
 ## Collaborate & Connect
 
-Reach out at [tomnandy922@gmail.com](mailto:tomnandy922@gmail.com) or [LinkedIn](https://www.linkedin.com/in/yunghsu-chuang-b45117316).
+Reach out at [tomnandy922@gmail.com](mailto:tomnandy922@gmail.com) or [www.linkedin.com/in/yunghsu-chuang-b45117316](https://www.linkedin.com/in/yunghsu-chuang-b45117316).
 
 I stream nightly on [Twitch](https://www.twitch.tv/cooljeffchuang) from 20:00–22:00, unpacking research notes and founder routines.

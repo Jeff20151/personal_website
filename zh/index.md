@@ -57,6 +57,6 @@ permalink: /zh/
 
 ## 合作與交流
 
-歡迎來信 [tomnandy922@gmail.com](mailto:tomnandy922@gmail.com) 或透過 [LinkedIn](https://www.linkedin.com/in/yunghsu-chuang-b45117316) 聯繫。
+歡迎來信 [tomnandy922@gmail.com](mailto:tomnandy922@gmail.com) 或透過 [www.linkedin.com/in/yunghsu-chuang-b45117316](https://www.linkedin.com/in/yunghsu-chuang-b45117316) 聯繫。
 
 🟣 每晚 20:00-22:00，我都在 [Twitch](https://www.twitch.tv/cooljeffchuang) 分享研究與創業日常。

@@ -17,7 +17,9 @@ alt_url: /contact/
 
 - **Email** — [tomnandy922@gmail.com](mailto:tomnandy922@gmail.com)
 - **Calendly** — 即將上線
-- **LinkedIn** — [yunghsu-chuang-b45117316](https://www.linkedin.com/in/yunghsu-chuang-b45117316)
+- **電話** — [0909-009-985](tel:0909009985)
+- **LINE** — 0909-009-985
+- **LinkedIn** — [www.linkedin.com/in/yunghsu-chuang-b45117316](https://www.linkedin.com/in/yunghsu-chuang-b45117316)
 
 ## 社群頻道
 
