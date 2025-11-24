@@ -1,0 +1,4 @@
+# Local font cache for PDF generation (do not commit proprietary fonts)
+docs/fonts_ArialUnicode.ttf
+docs/fonts_ArialUnicode*.pkl
+docs/.fontcache/

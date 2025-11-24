@@ -10,16 +10,22 @@
   font-display: swap;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;700&display=swap");
+
 :root {
-  --bg: #fdfdfb;
-  --fg: #181614;
-  --muted: #9b9792;
-  --accent: #0b0a08;
-  --border: rgba(24, 22, 20, 0.05);
-  --font-en: "TerminalDosis", "IBM Plex Mono", "SFMono-Regular", Menlo, Monaco, Consolas, "Courier New", monospace;
-  --font-zh: "Songti TC", "Noto Serif TC", "Source Han Serif TC", "PingFang TC", "Heiti TC", serif;
-  --font-display: "Amsterline", "TerminalDosis", "IBM Plex Mono", monospace;
-  --font-accent: "Amsterline", "TerminalDosis", "IBM Plex Mono", monospace;
+  --bg: #060912;
+  --bg-alt: #0b1326;
+  --fg: #e7ecf7;
+  --muted: #9fb3d3;
+  --accent: #22d3ee;
+  --accent-2: #f97316;
+  --border: rgba(255, 255, 255, 0.08);
+  --card: rgba(255, 255, 255, 0.04);
+  --glow: 0 22px 70px rgba(34, 211, 238, 0.2);
+  --font-en: "Space Grotesk", "Manrope", "Inter", "SF Pro Display", "Segoe UI", system-ui, sans-serif;
+  --font-zh: "Noto Sans TC", "PingFang TC", "Heiti TC", "Microsoft JhengHei", sans-serif;
+  --font-display: "Space Grotesk", "Amsterline", "TerminalDosis", "Manrope", sans-serif;
+  --font-accent: "Space Grotesk", "TerminalDosis", "Manrope", sans-serif;
 }
 
 * {
@@ -28,42 +34,41 @@
 
 body {
   margin: 0;
-  background: var(--bg);
+  background:
+    radial-gradient(circle at 20% 18%, rgba(34, 211, 238, 0.12), transparent 32%),
+    radial-gradient(circle at 82% 8%, rgba(249, 115, 22, 0.1), transparent 34%),
+    radial-gradient(circle at 30% 86%, rgba(255, 255, 255, 0.04), transparent 40%),
+    linear-gradient(150deg, #05070f, #0b1326 48%, #0a101f);
   color: var(--fg);
   font-family: var(--font-en);
-  font-size: 15px;
-  line-height: 1.8;
-  letter-spacing: 0.06em;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  -webkit-font-smoothing: antialiased;
 }
 
 body.lang-en {
-  color: #0f0d0b;
-  font-weight: 600;
+  color: var(--fg);
+  font-weight: 500;
   font-synthesis: weight;
 }
 
 body.lang-zh {
   font-family: var(--font-zh);
-  letter-spacing: 0.08em;
+  letter-spacing: 0.06em;
+  color: var(--fg);
 }
 
 a {
   color: var(--fg);
   text-decoration: none;
   position: relative;
-  transition: color 0.2s ease;
-}
-
-body.lang-en a {
-  color: #0f0d0b;
-}
-
-body.lang-en a:hover {
-  color: #050403;
+  transition: color 0.2s ease, text-shadow 0.2s ease;
 }
 
 a:hover {
   color: var(--accent);
+  text-shadow: 0 8px 28px rgba(34, 211, 238, 0.28);
 }
 
 h1,
@@ -73,11 +78,12 @@ h4,
 h5,
 h6 {
   margin: 0 0 0.6em;
-  font-family: var(--font-en);
+  font-family: var(--font-display);
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.18em;
-  font-size: 13px;
+  letter-spacing: 0.14em;
+  font-size: 14px;
+  color: var(--fg);
 }
 
 body.lang-zh h1,
@@ -87,10 +93,10 @@ body.lang-zh h4,
 body.lang-zh h5,
 body.lang-zh h6 {
   font-family: var(--font-zh);
-  font-weight: 500;
+  font-weight: 600;
   text-transform: none;
-  letter-spacing: 0.2em;
-  font-size: 18px;
+  letter-spacing: 0.18em;
+  font-size: 20px;
 }
 
 p {
@@ -99,7 +105,7 @@ p {
 
 body.lang-zh p,
 body.lang-zh li {
-  letter-spacing: 0.14em;
+  letter-spacing: 0.1em;
 }
 
 ul,
@@ -114,15 +120,18 @@ li {
 
 blockquote {
   margin: 2em 0;
-  padding-left: 1.2em;
-  border-left: 2px solid rgba(15, 15, 15, 0.2);
-  font-style: italic;
+  padding: 1em 1.2em;
+  border-left: 3px solid var(--accent);
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 12px;
+  box-shadow: var(--glow);
 }
 
 code,
 pre {
   font-family: "Fira Code", "SFMono-Regular", Menlo, Monaco, Consolas, "Courier New", monospace;
-  background: rgba(15, 15, 15, 0.06);
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--fg);
 }
 
 pre {
@@ -133,40 +142,48 @@ pre {
 
 .site-frame {
   min-height: 100vh;
-  padding: 48px 64px 64px;
+  padding: 36px 32px 56px;
   display: flex;
   flex-direction: column;
   position: relative;
   overflow: hidden;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), transparent 40%);
 }
 
 .site-frame::before {
   content: "";
   position: fixed;
-  inset: 80px;
+  inset: 24px;
   background:
-    radial-gradient(circle at 20% 30%, transparent 0 240px, rgba(0, 0, 0, 0.08) 240px 244px, transparent 244px 100%),
-    radial-gradient(circle at 80% 30%, transparent 0 240px, rgba(0, 0, 0, 0.08) 240px 244px, transparent 244px 100%),
-    radial-gradient(circle at 50% 70%, transparent 0 260px, rgba(0, 0, 0, 0.06) 260px 264px, transparent 264px 100%);
-  opacity: 0.16;
+    radial-gradient(circle at 18% 16%, rgba(34, 211, 238, 0.18), transparent 36%),
+    radial-gradient(circle at 82% 12%, rgba(249, 115, 22, 0.16), transparent 34%),
+    radial-gradient(circle at 50% 80%, rgba(255, 255, 255, 0.06), transparent 46%);
+  filter: blur(6px);
+  opacity: 0.75;
   z-index: -1;
   pointer-events: none;
 }
 
 .site-header {
+  position: sticky;
+  top: 12px;
+  z-index: 8;
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 40px;
-  text-transform: uppercase;
+  justify-content: center;
 }
 
 .header-inner {
   width: 100%;
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  gap: 24px;
-  flex-wrap: wrap;
+  gap: 16px;
+  padding: 14px 18px;
+  border-radius: 18px;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.28);
 }
 
 .brand-block a {
@@ -174,60 +191,74 @@ pre {
   flex-direction: column;
   gap: 6px;
   font-size: 12px;
-  letter-spacing: 0.24em;
+  letter-spacing: 0.14em;
   color: var(--fg);
 }
 
 .brand-block span:first-child {
   font-family: var(--font-display);
-  font-size: 24px;
-  letter-spacing: 0.18em;
-  text-transform: none;
+  font-size: 22px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
 }
 
 body.lang-zh .brand-block a {
-  letter-spacing: 0.16em;
+  letter-spacing: 0.12em;
 }
 
 body.lang-zh .brand-block span {
   font-family: var(--font-zh);
-  letter-spacing: 0.16em;
+  letter-spacing: 0.12em;
 }
 
 body.lang-zh .brand-block span:first-child {
-  font-size: 28px;
+  font-size: 26px;
 }
 
 .header-nav {
   display: flex;
-  align-items: flex-start;
-  gap: 28px;
+  align-items: center;
+  gap: 16px;
   margin-left: auto;
 }
 
 .primary-nav ul {
   list-style: none;
   display: flex;
-  gap: 18px;
+  flex-wrap: wrap;
+  gap: 10px;
   margin: 0;
-  padding: 6px 0 0;
-  font-size: 11px;
-  letter-spacing: 0.24em;
+  padding: 0;
+  font-size: 12px;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
 }
 
 .primary-nav a {
-  color: var(--muted);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 14px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--fg);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease, background 0.2s ease;
 }
 
 .primary-nav a:hover,
 .primary-nav a:focus {
-  color: var(--accent);
+  color: #fff;
+  transform: translateY(-2px);
+  border-color: rgba(255, 255, 255, 0.16);
+  background: linear-gradient(135deg, rgba(34, 211, 238, 0.08), rgba(249, 115, 22, 0.08));
+  box-shadow: var(--glow);
 }
 
 body.lang-zh .primary-nav ul {
   text-transform: none;
-  letter-spacing: 0.16em;
+  letter-spacing: 0.12em;
   font-size: 13px;
 }
 
@@ -236,7 +267,7 @@ body.lang-zh .primary-nav a {
 }
 
 .lang-toggle {
-  align-self: flex-start;
+  align-self: center;
 }
 
 .lang-switch {
@@ -244,18 +275,18 @@ body.lang-zh .primary-nav a {
   display: inline-flex;
   align-items: center;
   justify-content: space-between;
-  width: 96px;
-  height: 34px;
-  padding: 0 10px;
-  border-radius: 12px;
-  background: linear-gradient(130deg, #d9d9d9, #f1f1f1);
-  border: 1px solid rgba(255, 255, 255, 0.6);
-  box-shadow: inset 0 2px 4px rgba(255, 255, 255, 0.4), inset 0 -2px 6px rgba(0, 0, 0, 0.12);
+  width: 104px;
+  height: 36px;
+  padding: 0 12px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--border);
+  box-shadow: inset 0 1px 2px rgba(255, 255, 255, 0.12), 0 10px 24px rgba(0, 0, 0, 0.24);
   font-size: 11px;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: #333;
+  color: var(--muted);
 }
 
 .lang-switch .lang-label {
@@ -270,11 +301,11 @@ body.lang-zh .primary-nav a {
   position: absolute;
   top: 4px;
   left: var(--knob-position, 4px);
-  width: 26px;
-  height: 26px;
-  border-radius: 8px;
-  background: linear-gradient(140deg, #ffffff, #e8e8e8);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.18), inset 0 1px 3px rgba(255, 255, 255, 0.7);
+  width: 28px;
+  height: 28px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  box-shadow: 0 10px 22px rgba(34, 211, 238, 0.28), inset 0 1px 3px rgba(255, 255, 255, 0.5);
   transition: left 0.3s ease;
 }
 
@@ -291,19 +322,19 @@ body.lang-zh .primary-nav a {
   width: 100%;
   display: flex;
   justify-content: center;
-  padding: 80px 0 60px;
+  padding: 72px 0 56px;
 }
 
 .site-main__inner {
-  width: min(820px, 100%);
+  width: min(1100px, 100%);
 }
 
 .site-main.layout-landing .site-main__inner {
-  text-align: center;
+  text-align: left;
 }
 
 .site-main.layout-landing h1 {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .site-main.layout-landing ul {
@@ -325,7 +356,7 @@ body.lang-zh .primary-nav a {
 }
 
 .post-card {
-  border-bottom: 1px solid rgba(15, 15, 15, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
   padding: 26px 0;
 }
 
@@ -334,7 +365,7 @@ body.lang-zh .primary-nav a {
 }
 
 .post-card h2 {
-  font-size: 14px;
+  font-size: 16px;
   margin: 0 0 0.6em;
 }
 
@@ -348,7 +379,7 @@ body.lang-zh .post h1,
 body.lang-zh .page h1 {
   font-family: var(--font-zh);
   font-size: 18px;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.16em;
   text-transform: none;
 }
 
@@ -362,30 +393,37 @@ body.lang-zh .page h1 {
 .page,
 .post {
   margin-bottom: 3.2em;
+  padding: 28px 30px;
+  border-radius: 18px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  box-shadow: 0 14px 38px rgba(0, 0, 0, 0.3);
 }
 
 .page .page-body,
 .post .post-body {
   text-align: left;
+  color: var(--fg);
 }
 
 .post h1,
 .page h1 {
-  font-size: 16px;
-  margin-bottom: 1.6em;
+  font-size: 20px;
+  letter-spacing: 0.12em;
+  margin-bottom: 1.4em;
 }
 
 .post .meta {
-  font-size: 11px;
-  letter-spacing: 0.22em;
+  font-size: 12px;
+  letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: var(--muted);
-  margin-bottom: 1.6em;
+  color: rgba(231, 236, 247, 0.7);
+  margin-bottom: 1.2em;
 }
 
 body.lang-zh .post .meta {
   font-family: var(--font-zh);
-  letter-spacing: 0.16em;
+  letter-spacing: 0.14em;
   text-transform: none;
   font-size: 13px;
 }
@@ -411,7 +449,9 @@ body.lang-zh .post .meta {
 .tags-cloud li {
   padding: 6px 14px;
   border-radius: 999px;
-  border: 1px solid rgba(15, 15, 15, 0.12);
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--fg);
   font-size: 11px;
   letter-spacing: 0.18em;
   text-transform: uppercase;
@@ -460,9 +500,9 @@ body.lang-zh .post .meta {
   margin-left: -140px;
   border-radius: 16px;
   overflow: hidden;
-  background: rgba(255, 255, 255, 0.82);
-  border: 1px solid rgba(15, 15, 15, 0.08);
-  box-shadow: 0 20px 38px rgba(15, 15, 15, 0.16);
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid var(--border);
+  box-shadow: 0 22px 50px rgba(0, 0, 0, 0.35), 0 0 0 1px rgba(255, 255, 255, 0.02);
   transform-origin: 50% 50% 0;
   transition: transform 0.8s ease, opacity 0.45s ease, filter 0.45s ease;
   opacity: 0.15;
@@ -473,17 +513,18 @@ body.lang-zh .post .meta {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  filter: grayscale(20%);
+  filter: saturate(115%);
+  opacity: 0.9;
 }
 
 .orbit-card .orbit-meta {
   position: absolute;
   inset: auto 0 0 0;
   padding: 14px 18px;
-  background: linear-gradient(180deg, transparent 0%, rgba(0, 0, 0, 0.85) 100%);
-  color: #f6f6f6;
+  background: linear-gradient(180deg, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
+  color: var(--fg);
   font-size: 11px;
-  letter-spacing: 0.16em;
+  letter-spacing: 0.14em;
 }
 
 .orbit-card .orbit-meta strong {
@@ -504,9 +545,9 @@ body.lang-zh .post .meta {
   width: 42px;
   height: 42px;
   border-radius: 50%;
-  border: none;
-  background: rgba(255, 255, 255, 0.82);
-  box-shadow: 0 10px 26px rgba(15, 15, 15, 0.2);
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.35), 0 8px 20px rgba(34, 211, 238, 0.2);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -538,7 +579,7 @@ body.lang-zh .post .meta {
 
 .projects-grid {
   margin-top: 4em;
-  border-top: 1px solid rgba(15, 15, 15, 0.08);
+  border-top: 1px solid var(--border);
   padding-top: 2.4em;
 }
 
@@ -586,16 +627,22 @@ body.lang-zh .course-header h1 {
 .course-cta {
   align-self: flex-start;
   display: inline-flex;
-  padding: 8px 16px;
-  border: 1px solid rgba(24, 22, 20, 0.18);
-  border-radius: 8px;
+  padding: 10px 16px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.04);
   font-size: 12px;
-  letter-spacing: 0.18em;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
+  color: var(--fg);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease, background 0.2s ease;
 }
 
 .course-cta:hover {
-  background: rgba(24, 22, 20, 0.08);
+  background: linear-gradient(135deg, rgba(34, 211, 238, 0.12), rgba(249, 115, 22, 0.12));
+  border-color: rgba(255, 255, 255, 0.18);
+  box-shadow: var(--glow);
+  transform: translateY(-1px);
 }
 
 .course-meta dl {
@@ -603,14 +650,15 @@ body.lang-zh .course-header h1 {
   gap: 10px;
   margin: 0 0 2.4em;
   padding: 18px;
-  border: 1px solid rgba(0, 0, 0, 0.08);
+  border: 1px solid var(--border);
   border-radius: 12px;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.04);
+  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.22);
 }
 
 .course-meta dt {
   font-size: 12px;
-  letter-spacing: 0.18em;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--muted);
 }
@@ -626,7 +674,7 @@ body.lang-zh .course-header h1 {
 }
 
 .course-body {
-  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  border-top: 1px solid var(--border);
   padding-top: 1.8em;
   color: var(--fg);
 }
@@ -638,7 +686,7 @@ body.lang-zh .course-header h1 {
 body.lang-zh .course-meta dt,
 body.lang-zh .course-header .breadcrumb,
 body.lang-zh .course-cta {
-  letter-spacing: 0.2em;
+  letter-spacing: 0.16em;
   font-family: var(--font-zh);
   text-transform: none;
 }
@@ -647,7 +695,7 @@ body.lang-zh .course-meta dd,
 body.lang-zh .course-body p,
 body.lang-zh .course-header .subtitle {
   font-family: var(--font-zh);
-  letter-spacing: 0.16em;
+  letter-spacing: 0.12em;
 }
 
 .pagination {
@@ -663,11 +711,13 @@ body.lang-zh .course-header .subtitle {
 
 .site-footer {
   margin-top: auto;
-  text-align: right;
-  font-size: 11px;
+  text-align: center;
+  font-size: 12px;
   text-transform: uppercase;
-  letter-spacing: 0.22em;
+  letter-spacing: 0.16em;
   color: var(--muted);
+  border-top: 1px solid var(--border);
+  padding-top: 12px;
 }
 
 .site-footer p {
@@ -676,28 +726,29 @@ body.lang-zh .course-header .subtitle {
 
 @media (max-width: 900px) {
   .site-frame {
-    padding: 32px 28px 48px;
+    padding: 26px 22px 42px;
   }
 
   .header-inner {
     flex-direction: column;
-    gap: 24px;
+    align-items: flex-start;
+    gap: 18px;
   }
 
   .header-nav {
     width: 100%;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 18px;
+    gap: 14px;
   }
 
   .primary-nav ul {
     flex-wrap: wrap;
-    gap: 12px 18px;
+    gap: 10px 14px;
   }
 
   .site-main {
-    padding: 60px 0 40px;
+    padding: 52px 0 36px;
   }
 
   .orbit-card {
@@ -713,7 +764,7 @@ body.lang-zh .course-header .subtitle {
   }
 
   .lang-switch {
-    width: 88px;
+    width: 96px;
   }
 
   .site-main__inner {

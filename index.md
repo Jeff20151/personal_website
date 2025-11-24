@@ -36,6 +36,12 @@ When AI redefines labor and gene editing rewrites what life can be, single-track
 
 ---
 
+## New: STEAMxDREAM iGEM Navigator
+
+- Bilingual landing for a **Grades 9–12 synthetic biology bootcamp** with wet/dry lab, Human Practices, and English wiki/poster coaching. Explore the full program and brochure on the [iGEM page](/igem/).
+
+---
+
 ## Latest Writing
 
 {% assign latest_posts = site.posts | where: "lang", "en" | sort: "date" | reverse | slice: 0, 3 %}

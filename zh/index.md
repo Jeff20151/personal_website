@@ -36,6 +36,12 @@ permalink: /zh/
 
 ---
 
+## 新頁面：STEAMxDREAM iGEM 訓練營
+
+- 雙語課程頁，為國三～高三打造的 **合成生物學 / 建模 / Human Practices** 一年專題訓練，含英文 Wiki / Poster / Pitch 輔導。點擊 [iGEM 頁面](/igem/) 取得簡章與課程內容。
+
+---
+
 ## 最新文章
 
 {% assign latest_posts_zh = site.posts | where: "lang", "zh" | sort: "date" | reverse | slice: 0, 3 %}
