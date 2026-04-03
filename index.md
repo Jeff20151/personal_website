@@ -1,16 +1,21 @@
 ---
 layout: landing
-title: "Jeff Chunag — Research × Product × Systems"
-description: "Bilingual hub for research, product experiments, and narrative/product systems."
+title: "Yunghsu Jeff Chuang — Research × Product × Systems"
+description: "Yunghsu Jeff Chuang (莊詠旭) is a biodesign researcher and systems builder at National Taiwan University, working across spatial transcriptomics, SaaS, and cross-border commerce."
 lang: en
 alt_url: /zh/
 permalink: /
 keywords:
+  - Yunghsu Jeff Chuang
   - Jeff Chuang
+  - 莊詠旭
+  - Yunghsu Chuang
   - Biodesign
   - Cross-border commerce
   - PresenterAI
   - Startup research
+  - NTU BEBI
+  - spatial transcriptomics
 ---
 
 # Startups × Capital × Research × Product

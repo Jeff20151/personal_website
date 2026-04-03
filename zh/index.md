@@ -1,15 +1,20 @@
 ---
 layout: landing
-title: "莊詠旭 Jeff Chunag — 研究 × 產品 × 系統"
-description: "雙語個人網站，匯整研究專案與產品實驗，強調系統與敘事。"
+title: "莊詠旭 Yunghsu Jeff Chuang — 研究 × 產品 × 系統"
+description: "莊詠旭（Yunghsu Jeff Chuang）台大生醫電資所研究者，專注空間轉錄體學、SaaS 產品開發與跨境電商系統建構。"
 lang: zh
 alt_url: /
 keywords:
   - 莊詠旭
+  - Yunghsu Jeff Chuang
+  - Jeff Chuang
+  - Yunghsu Chuang
   - 生物設計
   - 新創
   - 投資
   - 跨領域
+  - 台大生醫電資所
+  - spatial transcriptomics
 permalink: /zh/
 ---
 
