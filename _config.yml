@@ -1,12 +1,14 @@
-title: Jeff Chuang ｜ 莊詠旭
-description: "Jeff Chuang (莊詠旭) blends biotech research, startups, and investment into cross-domain systems."
-description_zh: "莊詠旭（Jeff Chuang）結合生醫研究、新創與投資，打造跨領域系統化培育。"
-url: https://Jeff20151.github.io
+title: Yunghsu Jeff Chuang ｜ 莊詠旭
+description: "Yunghsu Jeff Chuang (莊詠旭) blends biotech research, startups, and investment into cross-domain systems."
+description_zh: "莊詠旭（Yunghsu Jeff Chuang）結合生醫研究、新創與投資，打造跨領域系統化培育。"
+url: https://jeff20151.github.io
 baseurl: "/personal_website"
 
 keywords:
+  - Yunghsu Jeff Chuang
   - Jeff Chuang
   - 莊詠旭
+  - Yunghsu Chuang
   - BioDesign Challenge
   - PresenterAI
   - Cross-border commerce
@@ -46,11 +48,12 @@ plugins:
 
 # Author profile (used in sidebar and meta)
 author:
-  name: "Jeff Chuang"
+  name: "Yunghsu Jeff Chuang"
   aliases:
     - "Jeff"
     - "Jeff Chuang"
     - "Yunghsu Chuang"
+    - "Yunghsu Jeff Chuang"
     - "莊詠旭"
   title: "National Taiwan University BST · BEBI"
   title_zh: "國立台灣大學 科技系 · 生醫電資所"
@@ -106,7 +109,7 @@ tag_page: /tags
 # SEO
 seo:
   type: "Person"
-  name: "Jeff Chuang"
+  name: "Yunghsu Jeff Chuang"
 
 # Exclude from processing
 exclude:
@@ -114,3 +117,7 @@ exclude:
   - Gemfile.lock
   - node_modules
   - README.md
+  - "Google Search Console.html"
+  - "Google Search Console (1).html"
+  - AGENT.md
+  - "IMG_60B52535B1D5-1.jpeg"
