@@ -1,6 +1,6 @@
 title: Yunghsu Jeff Chuang ｜ 莊詠旭
-description: "Yunghsu Jeff Chuang (莊詠旭) blends biotech research, startups, and investment into cross-domain systems."
-description_zh: "莊詠旭（Yunghsu Jeff Chuang）結合生醫研究、新創與投資，打造跨領域系統化培育。"
+description: "Yunghsu Jeff Chuang (莊詠旭) — Biomedical researcher at National Taiwan University, focusing on spatial transcriptomics and computational biology."
+description_zh: "莊詠旭（Yunghsu Jeff Chuang）— 台灣大學生醫電資所研究者，專注空間轉錄體學與計算生物學。"
 url: https://jeff20151.github.io
 baseurl: "/personal_website"
 
@@ -9,10 +9,9 @@ keywords:
   - Jeff Chuang
   - 莊詠旭
   - Yunghsu Chuang
-  - BioDesign Challenge
-  - PresenterAI
-  - Cross-border commerce
-  - 生物設計
+  - biomedical research
+  - spatial transcriptomics
+  - NTU BEBI
 
 google_site_verification: Z6Thpqg5fJqP888QIVFIKf-_sGjNBZCqOtY0sc98-4A
 
@@ -25,28 +24,14 @@ languages:
     baseurl: "/zh"
 default_lang: en
 
-branding:
-  lines:
-    en:
-      - "Jeff Chuang"
-      - "Research · Product · Systems"
-      - "Modeling · Commerce"
-      - "Taipei, Taiwan, World"
-    zh:
-      - "莊詠旭"
-      - "研究 · 產品 · 系統"
-      - "建模 · 跨境商務"
-      - "台北，台灣，世界"
-
 # Build
 markdown: kramdown
 theme: null
 plugins:
-  - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
 
-# Author profile (used in sidebar and meta)
+# Author profile
 author:
   name: "Yunghsu Jeff Chuang"
   aliases:
@@ -56,12 +41,12 @@ author:
     - "Yunghsu Jeff Chuang"
     - "莊詠旭"
   title: "National Taiwan University BST · BEBI"
-  title_zh: "國立台灣大學 科技系 · 生醫電資所"
-  job_title: "Biodesign researcher and systems builder"
+  title_zh: "國立台灣大學 生化科技系 · 生醫電資所"
+  job_title: "Biomedical Researcher, National Taiwan University"
   email: "tomnandy922@gmail.com"
   location: "Taipei, Taiwan"
-  bio: "Building across dropshipping,<br>SaaS launches,<br>and culture-driven storytelling."
-  bio_zh: "在跨境電商、SaaS 上市與文化敘事之間實驗與創造。"
+  bio: "Graduate researcher at NTU's Institute of Biomedical Electronics and Bioinformatics, working on spatial transcriptomics and computational biology."
+  bio_zh: "台灣大學生醫電子與資訊所碩士班研究生，研究方向為空間轉錄體學與計算生物學。"
   avatar: "/assets/img/avatar.jpg"
   socials:
     github: Jeff20151
@@ -98,13 +83,8 @@ defaults:
     values:
       lang: zh
 
-# Permalinks & pagination
-permalink: /:year/:month/:day/:title/
-paginate: 10
-paginate_path: "/page:num/"
-
-# Tags page
-tag_page: /tags
+# Blog
+permalink: /blog/:year/:month/:day/:title/
 
 # SEO
 seo:
@@ -117,7 +97,4 @@ exclude:
   - Gemfile.lock
   - node_modules
   - README.md
-  - "Google Search Console.html"
-  - "Google Search Console (1).html"
   - AGENT.md
-  - "IMG_60B52535B1D5-1.jpeg"

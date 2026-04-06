@@ -3,12 +3,12 @@
   <head>
     {% include head.html %}
   </head>
-<body class="lang-{{ page.lang | default: site.default_lang }}{% if page.body_class %} {{ page.body_class }}{% endif %}">
+<body class="lang-{{ page.lang | default: site.default_lang }}">
     <div class="site-frame">
       <header class="site-header">
         {% include header.html %}
       </header>
-      <main class="site-main layout-{{ page.layout | default: 'page' }}">
+      <main class="site-main">
         <div class="site-main__inner">
           {{ content }}
         </div>
@@ -17,11 +17,5 @@
         {% include footer.html %}
       </footer>
     </div>
-    <script src="{{ '/assets/js/site.js' | relative_url }}" defer></script>
-    {% if page.extra_js %}
-      {% for script in page.extra_js %}
-        <script src="{{ script | relative_url }}" defer></script>
-      {% endfor %}
-    {% endif %}
   </body>
 </html>

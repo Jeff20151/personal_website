@@ -1,67 +1,21 @@
 ---
-layout: landing
-title: "Yunghsu Jeff Chuang — Research × Product × Systems"
-description: "Yunghsu Jeff Chuang (莊詠旭) is a biodesign researcher and systems builder at National Taiwan University, working across spatial transcriptomics, SaaS, and cross-border commerce."
+layout: home
+title: "Yunghsu Jeff Chuang"
+description: "Yunghsu Jeff Chuang (莊詠旭) — Biomedical researcher at National Taiwan University, focusing on spatial transcriptomics and computational biology."
 lang: en
 alt_url: /zh/
 permalink: /
+hero_name: "Yunghsu Jeff Chuang"
+hero_title: "Biomedical Researcher · National Taiwan University"
+hero_bio: "Graduate researcher at NTU's Institute of Biomedical Electronics and Bioinformatics, working on spatial transcriptomics and computational biology."
 keywords:
   - Yunghsu Jeff Chuang
   - Jeff Chuang
   - 莊詠旭
-  - Yunghsu Chuang
-  - Biodesign
-  - Cross-border commerce
-  - PresenterAI
-  - Startup research
-  - NTU BEBI
+  - biomedical research
   - spatial transcriptomics
+  - NTU BEBI
 ---
 
-# Startups × Capital × Research × Product
-
-When AI redefines labor and gene editing rewrites what life can be, single-track careers feel insufficient. I’m building at the intersections—braiding startup speed, narrative empathy, and research rigor to surface answers that actually move people forward.
-
----
-
-## What I'm Exploring
-
-- **Research Programs** — With NTU BEBI labs, modeling gene expression from **spatial transcriptomics** data to fuse imaging and genomics.
-- **Company Sprints** — Running **SaaS rapid iterations** and **cross-border commerce tests** to pressure-test market demand.
-- **Narrative Systems** — Translating **math and policy** into stories and products people can feel before they understand.
-
----
-
-## Research & Product Highlights
-
-- **Spider Silk Protein Generation** — Collaborating with NTU BST on sequence design experiments.
-- **Spatial Transcriptomics Field Trials** — Clinical pilots with NTU BEBI medical teams.
-- **PresenterAI** — Turning academic decks into a **generative storytelling tool** for public audiences.
-- **Shihui** — An **end-to-end commerce app** helping new founders outgrow traditional cross-border playbooks.
-
----
-
-## New: STEAMxDREAM iGEM Navigator
-
-- Bilingual landing for a **Grades 9–12 synthetic biology bootcamp** with wet/dry lab, Human Practices, and English wiki/poster coaching. Explore the full program and brochure on the [iGEM page](/igem/).
-
----
-
-## Latest Writing
-
-{% assign latest_posts = site.posts | where: "lang", "en" | sort: "date" | reverse | slice: 0, 3 %}
-{% if latest_posts.size > 0 %}
-- {% for post in latest_posts %}[{{ post.title }}]({{ post.url | relative_url }}) — {{ post.date | date: "%b %d, %Y" }}{% endfor %}
-{% else %}
-- Essays in English are coming soon. Peek at the 中文版 for current notes.
-{% endif %}
-
-Browse the full archive on the [Blog](/blog/); I publish one essay a week around practice, research, and venture building.
-
----
-
-## Collaborate & Connect
-
-Reach out at [tomnandy922@gmail.com](mailto:tomnandy922@gmail.com) or [www.linkedin.com/in/yunghsu-chuang-b45117316](https://www.linkedin.com/in/yunghsu-chuang-b45117316).
-
-I stream nightly on [Twitch](https://www.twitch.tv/cooljeffchuang) from 20:00–22:00, unpacking research notes and founder routines.
+[About Me]({{ '/about/' | relative_url }}){: .hero-btn}
+[Get in Touch]({{ '/contact/' | relative_url }}){: .hero-btn}
